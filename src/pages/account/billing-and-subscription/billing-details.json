@@ -1,0 +1,42 @@
+{
+  "billingDetails": {
+    "id": 1,
+    "avatarSrc": "/images/mock/user.png",
+    "name": {
+      "firstName": "Terry",
+      "lastName": "Jones"
+    },
+    "billingAddress": {
+      "address1": "3891 Ranchview Dr. Richardson",
+      "address2": "terry@billing.com",
+      "city": "Irvine",
+      "state": "California",
+      "zip": 62639
+    },
+    "billingEmail": {
+      "toRecipient": "terry@billing.com",
+      "ccRecipient": ["jenny@playsolutions.com", "collin@playsolutions.com"]
+    }
+  },
+  "subscriptionPlan": {
+    "status": "Active",
+    "title": "Marketing Force",
+    "availableHours": 32,
+    "totalHours": 45,
+    "date": "Jun 3, 2022",
+    "price": "1,950",
+    "subTitle": "MARKETING FORCE CAPABILITIES",
+    "capabilities": [
+      "Digital Design",
+      "Social Media",
+      "Illustration Services",
+      "Print"
+    ],
+    "informations": [
+      "Creative Director",
+      "Dedicated Design Manager",
+      "Dedicated Design Team (1-2 designers)",
+      "Unlimited Revisions"
+    ]
+  }
+}

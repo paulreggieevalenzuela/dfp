@@ -1,0 +1,21 @@
+.Elevations :global {
+  @apply rounded-lg bg-white shadow-00 duration-300 ease-in-out;
+}
+
+.Elavation1 {
+  &:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
+  }
+}
+
+.Elavation2 {
+  &:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.Elavation3 {
+  &:hover {
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);
+  }
+}

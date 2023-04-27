@@ -1,0 +1,18 @@
+.Page {
+  .avatar {
+    @apply mb-3 flex cursor-pointer justify-end;
+  }
+
+  .wrapper {
+    @apply relative w-[250px];
+    &:hover {
+      .popupContainer {
+        @apply block;
+      }
+    }
+  }
+}
+
+.popupContainer {
+  @apply absolute top-10 hidden w-[250px] pt-2;
+}

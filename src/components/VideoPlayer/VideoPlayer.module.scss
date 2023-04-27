@@ -1,0 +1,28 @@
+.video {
+  max-width: 100%;
+}
+.controls {
+  @apply absolute bottom-0 flex h-[36px] w-full flex-wrap bg-gray-darkest;
+  transform: translateY(100%) translateY(-2px);
+  transition: all 0.2s;
+}
+
+.videoContainer {
+  @apply relative h-full w-full cursor-pointer overflow-hidden;
+}
+
+.videoContainer:hover .controls {
+  transform: translateY(0);
+}
+
+.videoDuration {
+  @apply h-[2px] w-full bg-white;
+}
+
+.videoTimeBar {
+  @apply h-[2px] bg-blue-700 duration-100 ease-out;
+}
+
+.videoTimeElapsed {
+  @apply flex w-full justify-end pr-20 text-xs font-normal text-white;
+}

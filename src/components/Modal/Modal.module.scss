@@ -1,0 +1,134 @@
+.Modal :global {
+  h4 {
+    @apply text-black;
+  }
+
+  .cds--modal-close {
+    display: none;
+  }
+
+  .cds--modal-header {
+    @apply flex items-center p-0;
+
+    .cds--modal-header {
+      @apply px-6 pb-0 pt-8;
+    }
+  }
+  
+  .cds--modal-header__heading {
+    @apply w-full;
+  }
+
+  .cds--modal-container {
+    @apply w-[500px] rounded-[8px] bg-white p-[16px] shadow-03 p-0;
+  }
+
+  .cds--modal-content {
+    @apply mb-0 p-0 text-[18px] font-[350] leading-[25.2px];
+    overflow: hidden; // To remove the scroll in the modal content/body section
+    p {
+      @apply pr-3 text-lg;
+    }
+
+    & > .cds--modal-content {
+      @apply p-6;
+    }
+  }
+
+  .modal__icon {
+    @apply mr-[12px] rounded-[50%] p-[8px] flex items-center;
+    background: #f6f6f8;
+
+    &.--error {
+      @apply bg-red-100;
+    }
+
+    &.--success {
+      @apply bg-green-100;
+    }
+  }
+
+  .modal__footer {
+    @apply flex justify-end p-6;
+
+    button {
+      @apply mr-[10px] items-center;
+
+      &:last-child {
+        @apply mr-[0];
+      }
+    }
+
+    .cds--btn--tertiary {
+      border: 1px solid #111111;
+      color: #111;
+
+      &:hover,
+      &:focus {
+        @apply text-white;
+        background: #111;
+      }
+    }
+
+    &.--with-border-top {
+      @apply border-t-[1px] border-gray-100 border-solid;
+    }
+  }
+}
+
+.SmallModal :global {
+  .cds--modal-container {
+    @apply w-[350px];
+  }
+
+  .modal__icon {
+    @apply mr-[8px];
+  }
+
+  h4 {
+    @apply font-[400];
+  }
+}
+
+.CenterModal :global {
+  h4 {
+    @apply text-[24px] font-[700];
+  }
+
+  .cds--modal-header {
+    @apply flex flex-col;
+  }
+
+  .modal__icon {
+    @apply mb-[16px] mr-[0] p-[18px];
+  }
+
+  .cds--modal-content {
+    @apply text-center;
+  }
+
+  .modal__footer {
+    @apply justify-center;
+  }
+}
+
+.XLModal :global {
+  .cds--modal-container {
+    @apply w-[750px];
+  }
+}
+
+.Modal:global {
+  &.y-scroll {
+    .cds--modal-content {
+      overflow-y: scroll;
+      .cds--modal-content::-webkit-scrollbar {
+        display: none;
+      }
+      .cds--modal-content {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }
+}

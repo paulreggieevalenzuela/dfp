@@ -1,0 +1,271 @@
+{
+  "invoiceData": [
+    {
+      "invoiceNo": "#526590",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/10/2012",
+      "status": "paid",
+      "amount": "$5,130.00"
+    },
+    {
+      "invoiceNo": "#526589",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/11/2012",
+      "status": "paid",
+      "amount": "$5,131.00"
+    },
+    {
+      "invoiceNo": "#526589",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/12/2012",
+      "status": "sent",
+      "amount": "$6,132.00"
+    },
+    {
+      "invoiceNo": "#526589",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/10/2012",
+      "status": "paid",
+      "amount": "$5,132.00"
+    },
+    {
+      "invoiceNo": "#526589",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/10/2012",
+      "status": "sent",
+      "amount": "$5,132.00"
+    },
+    {
+      "invoiceNo": "#526589",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/10/2012",
+      "status": "paid",
+      "amount": "$5,132.00"
+    },
+    {
+      "invoiceNo": "#526589",
+      "company": "Binford Ltd.",
+      "invoiceDate": "07/05/2016",
+      "dueDate": "28/10/2012",
+      "status": "sent",
+      "amount": "$5,132.00"
+    }
+  ],
+  "productsData": [
+    {
+      "productName": "Hair Balm",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$8.99"
+    },
+    {
+      "productName": "Shampoo Terra",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$5.22"
+    },
+    {
+      "productName": "Hand Lotion",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "low",
+      "price": "$11.7"
+    },
+    {
+      "productName": "Magic Massage Oil",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$17.84"
+    },
+    {
+      "productName": "Lip Gloss",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "Out of Stock",
+      "price": "$8.99"
+    },
+    {
+      "productName": "Soft Body Lotion",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "Out of Stock",
+      "price": "$8.99"
+    },
+    {
+      "productName": "Exfoliating Scrub",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$6.48"
+    },
+    {
+      "productName": "Hair Balm",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$8.99"
+    },
+    {
+      "productName": "Hair Balm",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$8.99"
+    },
+    {
+      "productName": "Hair Balm",
+      "productNo": "prn-0007",
+      "category": "Cosmetics",
+      "status": "instock",
+      "price": "$8.99"
+    }
+  ],
+  "employeeData": [
+    {
+      "fullName": "Michael Scott",
+      "email": "michael@company.com",
+      "department": "Accounting",
+      "loginDate": "September 20, 2022",
+      "loginDateCount": "2 days ago",
+      "status": "active"
+    },
+    {
+      "fullName": "Kelly Kapoor",
+      "email": "kelly@company.com",
+      "department": "development",
+      "loginDate": "September 20, 2022",
+      "loginDateCount": "2 days ago",
+      "status": "inactive"
+    },
+    {
+      "fullName": "Michael Scott",
+      "email": "michael@company.com",
+      "department": "Accounting",
+      "loginDate": "September 20, 2022",
+      "loginDateCount": "2 days ago",
+      "status": "active"
+    },
+    {
+      "fullName": "Dwight Scrute",
+      "email": "dwight@company.com",
+      "department": "Accounting",
+      "loginDate": "September 20, 2022",
+      "loginDateCount": "2 days ago",
+      "status": "active"
+    },
+    {
+      "fullName": "Pam Halpert",
+      "email": "pam@company.com",
+      "department": "Accounting",
+      "loginDate": "September 20, 2022",
+      "loginDateCount": "2 days ago",
+      "status": "active"
+    }
+  ],
+  "weightData": [
+    {
+      "day": "Sunday",
+      "fat": "70g",
+      "carb": "85g",
+      "protein": "93g"
+    },
+    {
+      "day": "Monday",
+      "fat": "82g",
+      "carb": "96g",
+      "protein": "84g"
+    },
+    {
+      "day": "Tuesday",
+      "fat": "69g",
+      "carb": "83g",
+      "protein": "92g"
+    },
+    {
+      "day": "Wednesday",
+      "fat": "76g",
+      "carb": "87g",
+      "protein": "85g"
+    },
+    {
+      "day": "Thursday",
+      "fat": "70g",
+      "carb": "85g",
+      "protein": "93g"
+    },
+    {
+      "day": "Friday",
+      "fat": "70g",
+      "carb": "85g",
+      "protein": "93g"
+    },
+    {
+      "day": "Saturday",
+      "fat": "70g",
+      "carb": "85g",
+      "protein": "93g"
+    },
+    {
+      "day": "Average",
+      "fat": "86g",
+      "carb": "92g",
+      "protein": "87g",
+      "isTotalRow": true
+    }
+  ],
+  "stockData": [
+    {
+      "name": "SkyHighCorp",
+      "symbol": "(SHC)",
+      "div": "--",
+      "vol": "3143",
+      "yld": "--",
+      "pe": "76",
+      "dayLast": "21.34",
+      "percentageChange": "+.25",
+      "fillType": "bg-green-100"
+    },
+    {
+      "name": "LowDownInc",
+      "symbol": "(LDI)",
+      "div": "2.35",
+      "vol": "2734",
+      "yld": "5.8",
+      "pe": "18",
+      "dayLast": "41.00",
+      "percentageChange": "-.50",
+      "fillType": "bg-red-100"
+    },
+    {
+      "name": "ValueNowInc",
+      "symbol": "(VNI)",
+      "div": "1.00",
+      "vol": "1894",
+      "yld": "4.3",
+      "pe": "12",
+      "dayLast": "22.00",
+      "percentageChange": "-.10",
+      "fillType": "bg-red-100"
+    },
+    {
+      "name": "DoinBadly",
+      "symbol": "(DBI)",
+      "div": "--",
+      "vol": "7601",
+      "yld": "--",
+      "pe": "--",
+      "dayLast": "33.5",
+      "percentageChange": "+.75",
+      "fillType": "bg-green-100"
+    }
+  ]
+}

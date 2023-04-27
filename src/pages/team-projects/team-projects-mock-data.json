@@ -1,0 +1,235 @@
+{
+  "columns": [
+    {
+      "label": "PROJECT",
+      "field": "project",
+      "hasCheckbox": true
+    },
+    {
+      "label": "PM",
+      "field": "pm",
+      "alignment": "center"
+    },
+    {
+      "label": "CLIENT",
+      "field": "client",
+      "alignment": "center"
+    },
+    {
+      "label": "PRIORITY",
+      "field": "priority",
+      "alignment": "center"
+    },
+    {
+      "label": "PROGRESS",
+      "field": "progress",
+      "alignment": "center"
+    },
+    {
+      "label": "DUE DATE",
+      "field": "dueDate",
+      "alignment": "center"
+    },
+    {
+      "label": "EST. HOURS",
+      "field": "estimatedHours",
+      "alignment": "center"
+    }
+  ],
+  "data": [
+    {
+      "project": "Reusable Components for DF App",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        }
+      ],
+      "count": "2",
+      "client": "Design Force",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "SDD for Webapp",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        }
+      ],
+      "count": "2",
+      "client": "KWE LLC",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "Mar 15",
+      "estimatedHours": "5h"
+    },
+    {
+      "project": "Launch Mobile App",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        }
+      ],
+      "count": "6",
+      "client": "Mobile Legacy",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "Feb 27",
+      "estimatedHours": "20h"
+    },
+    {
+      "project": "Responsive Design Mock Up",
+      "pm": [
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "Go Digital!",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "Mar 14",
+      "estimatedHours": "4h"
+    },
+    {
+      "project": "Release Version 3",
+      "pm": [
+        {
+          "name": "Sofia Jackson",
+          "src": "/images/mock/profile2.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "Wall of Wool Street",
+      "priority": "1",
+      "progress": "Complete",
+      "dueDate": "Feb 21",
+      "estimatedHours": "30h"
+    },
+    {
+      "project": "Legacy App Migration",
+      "pm": [
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        },
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        }
+      ],
+      "count": "5",
+      "client": "Interstellar Solutions",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "April 16",
+      "estimatedHours": "45h"
+    },
+    {
+      "project": "Carousel Enhancement",
+      "pm": [
+        {
+          "name": "Sofia Jackson",
+          "src": "/images/mock/profile2.png"
+        }
+      ],
+      "count": "1",
+      "client": "Pots and Pans",
+      "priority": "1",
+      "progress": "Complete",
+      "dueDate": "Feb 4",
+      "estimatedHours": "8h"
+    },
+    {
+      "project": "Switch Hero Section Videos to 4K",
+      "pm": [
+        {
+          "name": "Helen Shelby",
+          "src": "/images/mock/profile6.png"
+        }
+      ],
+      "count": "2",
+      "client": "Bridge and Ton",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "May 5",
+      "estimatedHours": "8h"
+    },
+    {
+      "project": "Add Form",
+      "pm": [
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "4",
+      "client": "Adopt.org",
+      "priority": "1",
+      "progress": "Complete",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Bug fixes",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        }
+      ],
+      "count": "1",
+      "client": "Zoobic Safari",
+      "priority": "1",
+      "progress": "For Review",
+      "dueDate": "April 1",
+      "estimatedHours": "25h"
+    },
+    {
+      "project": "Revamp Landing Page",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        },
+        {
+          "name": "Helen Shelby",
+          "src": "/images/mock/profile6.png"
+        }
+      ],
+      "count": "2",
+      "client": "Zoobic Safari",
+      "priority": "1",
+      "progress": "For Review",
+      "dueDate": "April 9",
+      "estimatedHours": "30h"
+    }
+  ],
+  "rowActions": [
+    {
+      "label": "Action"
+    }
+  ]
+}

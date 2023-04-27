@@ -1,0 +1,27 @@
+.wrapper :global {
+  .react-multi-email {
+    @apply overflow-hidden border-none hover:outline hover:outline-1 hover:outline-blue-700;
+  }
+
+  .react-multi-email > input {
+    width: 5px !important;
+    @apply m-0 h-[32px] text-sm text-gray-darkest;
+  }
+
+  .react-multi-email.focused {
+    input {
+      width: auto !important;
+    }
+    @apply h-auto shadow-04 outline outline-1 outline-gray-darkest;
+  }
+
+  .react-multi-email [data-tag] {
+    @apply  mr-1 h-[30px] rounded bg-white text-xs font-normal text-gray-darkest;
+    border: 1px solid #d0d0dd;
+    padding: 3px 4px 3px 16px;
+  }
+
+  .react-multi-email [data-tag] [data-tag-handle] {
+    @apply my-auto flex;
+  }
+}

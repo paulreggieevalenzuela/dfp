@@ -1,0 +1,313 @@
+{
+  "columns": [
+    {
+      "label": "AMOUNT",
+      "field": "amount",
+      "hasCheckbox": true,
+      "hasIcon": true
+    },
+    {
+      "label": "DUE",
+      "field": "due",
+      "hasIcon": true
+    },
+    {
+      "label": "INVOICE NO.",
+      "field": "invoice_number"
+    },
+    {
+      "label": "CREATED",
+      "field": "created",
+      "hasIcon": true
+    }
+  ],
+  "data": [{
+    "amount": "$499.87",
+    "currency": "USD",
+    "status": "Open",
+    "due": "June 17, 2022",
+    "invoice_number": "40L831Q-0407",
+    "created": "May 26, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$489.78",
+    "currency": "USD",
+    "status": "Open",
+    "due": "January 1, 2022",
+    "invoice_number": "80A144H-4173",
+    "created": "December 14, 2021",
+    "payment_method": "unset"
+  }, {
+    "amount": "$483.33",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "91Q259R-4380",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$483.29",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "07Y674W-2415",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$484.75",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "94K273K-6097",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$487.31",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "99S170P-2001",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$483.66",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "56H588A-5478",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$482.53",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "07X383N-0122",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$485.55",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "21Z107P-3290",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$497.97",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "28V755G-5297",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$489.62",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "41G365S-6146",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$497.81",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "33M317I-0764",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$486.65",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "49O366M-5179",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$498.41",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "40J991B-0920",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$482.13",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "70K329X-9009",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$497.48",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "17B867O-6333",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$495.15",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "07T955R-4010",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$484.85",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "81V570K-4219",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$482.56",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "64W683X-9662",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$493.94",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "64K428K-4289",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$492.45",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "17O558Y-0865",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$486.61",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "53S366K-8169",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$497.90",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "46J037Y-2787",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$487.55",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "80U678K-4149",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$482.13",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "36F007F-3606",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$482.05",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "01Y698D-7151",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$497.76",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "75J864C-0675",
+    "created": "May 14, 2022",
+    "payment_method": "unset"
+  }, {
+    "amount": "$488.46",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "16N033J-8841",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$485.55",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "53I439E-3526",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$481.25",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "66O266N-1809",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$484.50",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "92L953K-4413",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$490.23",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "26O061Z-9755",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$484.41",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "15I520O-6953",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$492.28",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "60F648U-7451",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }, {
+    "amount": "$481.81",
+    "currency": "USD",
+    "status": "Open",
+    "due": "May 14, 2022",
+    "invoice_number": "26J514Y-6612",
+    "created": "May 14, 2022",
+    "payment_method": "card"
+  }],
+  "rowActions": [
+    {
+      "label": "Pay invoices"
+    },
+    {
+      "label": "Export"
+    }
+  ]
+}

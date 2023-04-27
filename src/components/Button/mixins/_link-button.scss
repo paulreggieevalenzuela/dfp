@@ -1,0 +1,65 @@
+@mixin link-button-hover($kind: primary) {
+  @apply border-none bg-transparent;
+
+  @if $kind == primary {
+    @apply text-gray-darkest;
+
+    &.dark {
+      @apply bg-white text-blue-600;
+    }
+  }
+
+  @if $kind == danger {
+    @apply text-gray-darkest;
+  }
+}
+
+@mixin link-button-active($kind: primary) {
+  @apply border-none bg-transparent;
+  @if $kind == primary {
+    @apply text-blue-darkest;
+
+    &.dark {
+      @apply bg-white/[.16] text-white;
+    }
+  }
+
+  @if $kind == danger {
+    @apply text-red-darkest;
+  }
+}
+
+@mixin link-button($kind: primary) {
+  @apply border-none bg-transparent;
+
+  @if $kind == primary {
+    &,
+    &:focus {
+      @apply border-none bg-transparent text-blue-700;
+
+      &.dark {
+        @apply text-white;
+      }
+    }
+  }
+
+  @if $kind == danger {
+    &,
+    &:focus {
+      @apply border-none bg-transparent text-red-700;
+    }
+  }
+
+  &:disabled {
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+      @apply border-none bg-transparent text-gray-darkest/[.38];
+
+      &.dark {
+        @apply text-white/[.38];
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.Page {
+  h6:global {
+    @apply mb-4 flex w-[350px] text-[22px] font-normal;
+  }
+
+  section {
+    @apply w-[350px] items-center p-6;
+  }
+}

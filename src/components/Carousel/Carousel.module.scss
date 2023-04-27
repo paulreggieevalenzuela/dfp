@@ -1,0 +1,45 @@
+.Carousel :global {
+  @apply relative h-[300px] w-[500px] overflow-hidden;
+  margin: 0 auto;
+
+  .carousel__content {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+
+  .carousel__item {
+    @apply inline-flex h-[300px] items-center justify-center text-white;
+  }
+
+  .carousel__indicators {
+    @apply absolute right-0 left-0 bottom-0 flex justify-center;
+  }
+
+  .carousel__indicators > button {
+    @apply h-[6px] w-[6px] cursor-pointer rounded-[50%] p-[0] outline-0;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 1px solid #fff;
+    margin: 5px 3px;
+  }
+
+  .carousel__indicators > button.active {
+    @apply bg-white;
+  }
+
+  .carousel__cta {
+    @apply flex;
+
+    button {
+      @apply absolute top-0 bottom-0 cursor-pointer border-transparent bg-transparent outline-0;
+      transform: translate(-50%);
+
+      &:first-child {
+        left: 40px;
+      }
+
+      &:last-child {
+        right: -5px;
+      }
+    }
+  }
+}

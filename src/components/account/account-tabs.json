@@ -1,0 +1,16 @@
+{
+  "tabs": [
+    {
+      "icon": "enterprise",
+      "tabName": "Company Profile",
+      "link": "/account/company-profile",
+      "tabKey": "company-profile"
+    },
+    {
+      "icon": "receipt",
+      "tabName": "Billing & Subscription",
+      "link": "/account/billing-and-subscription",
+      "tabKey": "billing-and-subscription"
+    }
+  ]
+}

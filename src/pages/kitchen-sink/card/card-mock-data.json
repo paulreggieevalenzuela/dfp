@@ -1,0 +1,232 @@
+{
+  "data": [
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet, consectetur elit adipiscing, sed do eiusm tem dolor sit amet, consectetur.",
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      },
+      "actions": [
+        {
+          "style": "outline",
+          "size": "sm",
+          "label": "Secondary"
+        },
+        {
+          "size": "sm",
+          "label": "Primary"
+        }
+      ]
+    },
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet, consectetur elit adipiscing, sed do eiusm tem dolor sit amet, consectetur.",
+      "imageWithPadding": true,
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "objectFit": "contain",
+        "alt": "Placeholder Image"
+      },
+      "actions": [
+        {
+          "style": "outline",
+          "size": "sm",
+          "label": "Secondary"
+        },
+        {
+          "size": "sm",
+          "label": "Primary"
+        }
+      ]
+    },
+    {
+      "imageWithPadding": true,
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      },
+      "avatars": [
+        {
+          "src": "/images/mock/profile3.png",
+          "alt": "avatars"
+        },
+        {
+          "src": "/images/mock/profile5.png",
+          "alt": "avatars"
+        },
+        {
+          "src": "/images/mock/profile4.png",
+          "alt": "avatars"
+        },
+        {
+          "src": "/images/mock/profile6.png",
+          "alt": "avatars"
+        }
+      ]
+    }
+  ],
+  "dataNoImage": [
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet, consectetur elit adipiscing, sed do eiusm tem dolor sit amet, consectetur.",
+      "ctaAlignment": "left",
+      "actions": [
+        {
+          "style": "link",
+          "label": "Learn more"
+        }
+      ]
+    }
+  ],
+  "dataLandscapeOrientation": [
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet, consectetur elit adipiscing, sed do eiusm tem dolor sit amet, consectetur.",
+      "orientation": "landscape",
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      },
+      "actions": [
+        {
+          "style": "link",
+          "label": "Learn more"
+        }
+      ]
+    },
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet, consectetur elit adipiscing, sed do eiusm tem dolor sit amet, consectetur.",
+      "orientation": "landscape",
+      "imageWithPadding": true,
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      },
+      "actions": [
+        {
+          "style": "link",
+          "label": "Learn more"
+        }
+      ]
+    }
+  ],
+  "dataLargeDesc": [
+    {
+      "title": "Card title",
+      "description": "10,000",
+      "imageWithPadding": true,
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      },
+      "miniTitle": true,
+      "largeDescription": true
+    }
+  ],
+  "dataCardSmall": [
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet.",
+      "orientation": "landscape",
+      "size": "sm",
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      }
+    },
+    {
+      "title": "Card title",
+      "description": "Card description. Lorem ipsum dolor sit amet.",
+      "orientation": "landscape",
+      "imageWithPadding": true,
+      "size": "sm",
+      "image": {
+        "src": "/images/mock/base-avatar-placeholder.gif",
+        "alt": "Placeholder Image"
+      }
+    }
+  ],
+  "dataWithAvatar": [
+    {
+      "title": "Card title",
+      "description": "Subtitle",
+      "avatar": {
+        "src": "/images/mock/profile1.png",
+        "alt": "Placeholder Image"
+      }
+    },
+    {
+      "title": "Card title",
+      "description": "Subtitle",
+      "image": {
+        "src": "/images/mock/placeholder-card.png",
+        "alt": "Placeholder Image"
+      },
+      "avatar": {
+        "src": "/images/mock/profile1.png",
+        "alt": "Placeholder Image"
+      }
+    }
+  ],
+  "dataWithMap": [
+    {
+      "title": "Kelly Kapoor",
+      "description": "Developer",
+      "map": {
+        "latitude": 40.650002,
+        "longitude": -73.949997,
+        "height": 200,
+        "width": 300,
+        "grayscale": true
+      },
+      "avatar": {
+        "src": "/images/mock/profile6.png",
+        "alt": "Placeholder Image"
+      }
+    },
+    {
+      "title": "Population",
+      "description": "8.5 million",
+      "imageWithPadding": true,
+      "miniTitle": true,
+      "largeDescription": true,
+      "map": {
+        "latitude": 40.650002,
+        "longitude": -73.949997,
+        "height": 171,
+        "width": 318
+      }
+    },
+    {
+      "imageWithPadding": true,
+      "map": {
+        "latitude": 40.650002,
+        "longitude": -73.949997,
+        "height": 200,
+        "width": 300,
+        "grayscale": true,
+        "darkMode": true
+      },
+      "avatars": [
+        {
+          "src": "/images/mock/profile3.png",
+          "alt": "avatars"
+        },
+        {
+          "src": "/images/mock/profile5.png",
+          "alt": "avatars"
+        },
+        {
+          "src": "/images/mock/profile4.png",
+          "alt": "avatars"
+        },
+        {
+          "src": "/images/mock/profile6.png",
+          "alt": "avatars"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+.Page :global {
+  @apply flex w-[650px] xl:w-[100%] pt-[60px] mx-auto;
+  margin: 0 auto;
+}
+
+.cta {
+  @apply mt-[40px];
+
+  .ctaCancel {
+    @apply pl-[0px] text-gray-200;
+  }
+
+  .ctaSubmit {
+    @apply bg-transparent;
+  }
+}
+
+.companyInfo {
+  @apply ml-[40px] w-[100%];
+
+  .companyTitle {
+    @apply mb-[30px] text-[18px] font-medium;
+  }
+}
+
+.formGroup {
+  @apply mb-[20px] flex flex-col gap-5 xl:flex-row xl:gap-0;
+
+  input {
+    @apply bg-white;
+  }
+
+  & > div:first-child {
+    @apply mr-[20px];
+  }
+
+  .formContainer {
+    @apply w-[100%] max-w-[400px];
+
+    label {
+      @apply text-xs font-medium text-black flex items-center justify-between;
+
+      span {
+        @apply flex items-center;
+      }
+
+      button {
+        @apply p-[0px] ml-[3px] text-[12px] leading-[12px] h-[22px];
+      }
+    }
+  }
+
+  .formText {
+    @apply mt-[8px] bg-neutral-200 px-[8px] py-[9px];
+
+    span {
+      @apply mr-[5px] text-gray-400;
+    }
+  }
+}
+

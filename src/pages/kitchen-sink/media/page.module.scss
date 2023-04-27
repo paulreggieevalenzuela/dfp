@@ -1,0 +1,19 @@
+.Page :global {
+  @apply mb-10;
+}
+
+.ChipContainer {
+  display: flex;
+
+  & > div {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+.videoContainer {
+  @apply m-5 flex justify-center gap-8;
+}

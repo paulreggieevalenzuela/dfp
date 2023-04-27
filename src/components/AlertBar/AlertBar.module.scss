@@ -1,0 +1,55 @@
+.AlertBar :global {
+  .cds--toast-notification {
+    @apply w-full rounded-[4px] p-[16px] shadow-none;
+    background: #ebf4ff;
+    border: 1px solid #027aff;
+
+    svg {
+      @apply m-0 h-[20px] w-[20px];
+    }
+
+    &--success {
+      background: #dff1ea;
+      border: 1px solid #80cbad;
+
+      svg {
+        fill: #009459;
+      }
+    }
+
+    &--error {
+      background: #ffebeb;
+      border: 1px solid #ef9a9a;
+
+      svg {
+        fill: #f43434;
+      }
+    }
+  }
+
+  .cds--toast-notification__details {
+    margin: -1px 0 0 17px;
+  }
+
+  .cds--toast-notification__title,
+  .cds--toast-notification__subtitle {
+    color: #111;
+    margin: 0;
+    line-height: 22px;
+  }
+
+  .cds--toast-notification__title {
+    @apply text-[16px] font-medium tracking-tight;
+  }
+
+  .cds--toast-notification__subtitle {
+    @apply mt-[4px] text-[16px] font-normal tracking-tight;
+    color: rgba(17, 17, 17, 0.6);
+  }
+}
+
+.AlertBarSmall :global {
+  .cds--toast-notification__title {
+    @apply text-[18px] font-[350] leading-[25.2px];
+  }
+}

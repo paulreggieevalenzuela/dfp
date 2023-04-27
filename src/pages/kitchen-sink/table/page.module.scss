@@ -1,0 +1,27 @@
+.Page :global {
+  @apply mb-[40px];
+}
+
+.ComponentContainer {
+  @apply flex items-start justify-between;
+}
+
+.statusCell :global {
+  @apply mr-5 flex items-center text-sm capitalize;
+
+  span {
+    @apply mr-2 block h-[9px] w-[9px] rounded-[50%] outline outline-1 outline-red;
+  }
+
+  .--instock {
+    @apply bg-green;
+  }
+
+  .--low {
+    @apply bg-yellow;
+  }
+
+  .--out-of-stock {
+    @apply bg-red-700;
+  }
+}

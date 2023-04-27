@@ -1,0 +1,44 @@
+.LoginWithEmail :global {
+  @apply flex w-full flex-col gap-3;
+  .or {
+    @apply relative block w-full text-center text-[#AFAFC4];
+    &:before,
+    &:after {
+      @apply absolute top-[45%] m-auto block;
+      content: '';
+      width: 40%;
+      height: 1px;
+      border-bottom: 1px solid #d0d0dd;
+    }
+    &:before {
+      @apply right-0;
+    }
+    &:after {
+      @apply left-0;
+    }
+  }
+  label {
+    @apply text-xs font-medium;
+  }
+  input {
+    @apply rounded-sm border-none bg-[#F8F8FA] p-2 text-base;
+    &:focus {
+      @apply border border-solid border-black outline-2 outline-blue-100;
+    }
+  }
+  .forgot {
+    @apply my-4 text-base;
+  }
+  .error {
+    @apply text-sm text-red;
+  }
+}
+
+.LoginWithEmail {
+  > div {
+    @apply flex flex-col gap-2;
+  }
+}
+
+.expanded {
+}

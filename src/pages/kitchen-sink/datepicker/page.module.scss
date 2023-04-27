@@ -1,0 +1,17 @@
+.Page :global {
+  //datepicker
+  .col {
+    > span {
+      @apply text-[22px];
+    }
+    > div {
+      @apply flex flex-col gap-[32px];
+    }
+  }
+  h5 {
+    @apply mb-[20px];
+  }
+  .flatpickr-calendar {
+    display: flex;
+  }
+}

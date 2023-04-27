@@ -1,0 +1,23 @@
+.Map {
+  > div {
+    @apply rounded-[16px];
+  }
+
+  &.gray {
+    img {
+      filter: grayscale(1);
+    }
+
+    &.dark {
+      img {
+        filter: grayscale(1) invert(1);
+      }
+    }
+  }
+
+  &.dark {
+    img {
+      filter: invert(1);
+    }
+  }
+}

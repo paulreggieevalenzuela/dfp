@@ -1,0 +1,138 @@
+.Page {
+  .subscriptionHeader {
+    @apply mt-[40px] mb-[25px] flex justify-between;
+
+    h6 {
+      @apply my-auto cursor-pointer text-lg font-light;
+    }
+
+    span {
+      @apply my-auto text-base font-normal text-blue-700;
+    }
+
+    button:first-child {
+      @apply pl-[0px] text-blue-700;
+
+      &:hover {
+        @apply bg-transparent  hover:text-gray-darkest;
+      }
+
+      svg {
+        @apply mt-1;
+      }
+    }
+  }
+
+  .subscriptionContainer {
+    @apply flex justify-between;
+
+    & > div {
+      @apply mr-[24px];
+    }
+
+    & > div:last-child {
+      @apply mr-[0px];
+    }
+  }
+
+  .subscriptionWrapper {
+    @apply flex w-[350px] flex-col justify-between p-[24px];
+
+    .subscriptionTitle {
+      @apply text-xl font-[500] text-black;
+    }
+
+    .subscriptionPrice {
+      @apply text-[10px] font-[500] text-black;
+
+      span {
+        @apply text-base;
+      }
+    }
+
+    .subscriptionHours {
+      @apply mt-[6px] font-[350] text-gray text-gray-700;
+    }
+
+    .subscriptionCta {
+      @apply my-[24px];
+      color: #111111 !important;
+      border: 1px solid #111111 !important;
+    }
+
+    .subscriptionCTAPro {
+      @apply my-[24px] text-white;
+      background: #0b4242;
+      border: 1px solid #0b4242;
+    }
+
+    .subscriptionCTAFull {
+      @apply my-[24px] text-white;
+      background: #db0e6b;
+      border: 1px solid #db0e6b;
+    }
+
+    .subscriptionSubtitle {
+      @apply text-[11px] font-bold tracking-widest;
+    }
+
+    .subscriptionSubtitlePro {
+      color: #0b4242;
+    }
+
+    .subscriptionSubtitleFull {
+      color: #db0e6b;
+    }
+
+    .planDetails {
+      @apply mt-[24px];
+
+      li {
+        @apply mb-[12px] text-sm font-[400] text-gray-600;
+
+        *:last-child {
+          @apply mb-[0px];
+        }
+      }
+    }
+
+    .subscriptionDivider {
+      @apply my-[30px];
+      background: rgba(0, 0, 0, 0.08);
+    }
+
+    .planInformation {
+      li {
+        @apply mt-[12px] flex;
+
+        p {
+          @apply ml-[10px] w-[160px] text-sm text-black;
+        }
+
+        *:last-child {
+          @apply mb-[0px];
+        }
+      }
+    }
+  }
+
+  .subscriptionWrapperActive {
+    opacity: 0.7;
+  }
+
+  .planCustomization {
+    @apply mt-[24px] flex flex-col items-center;
+
+    button:first-child {
+      @apply mb-[40px] text-gray-400;
+
+      &:hover {
+        @apply text-white;
+      }
+    }
+
+    h6 {
+      @apply mb-[16px] font-normal;
+    }
+  }
+}

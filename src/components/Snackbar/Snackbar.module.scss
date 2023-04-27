@@ -1,0 +1,23 @@
+.barStyle {
+  @apply flex h-[45px] w-[350px] cursor-pointer items-center justify-between rounded px-4 text-lg font-light text-white shadow-sm;
+}
+
+.defaultStyle {
+  @apply bg-gray-darkest;
+}
+
+.errorStyle {
+  @apply bg-red-800;
+}
+
+.successStyle {
+  @apply bg-green-600;
+}
+
+.warningStyle {
+  @apply bg-yellow-500;
+}
+
+.bottomLeft {
+  @apply absolute bottom-10 left-10;
+}

@@ -1,0 +1,113 @@
+.Page :global {
+  main {
+    @apply flex min-h-screen w-full flex-col lg:flex-row;
+  }
+  .left {
+    @apply flex h-1/2 w-full flex-col items-center bg-white p-6;
+    @apply lg:h-screen lg:w-[35%] xl:w-[40%] 2xl:w-1/2;
+  }
+  .right {
+    @apply relative h-1/2 w-full flex-auto overflow-hidden p-6 lg:w-1/2;
+    @apply lg:h-screen;
+
+    background-image: url('../../../public/images/backgrounds/dots.svg');
+    background-color: #1c1c1c;
+  }
+  .content {
+    @apply m-auto flex w-[300px] flex-col items-center justify-center gap-4 py-14;
+    p {
+      @apply mb-7;
+    }
+    button {
+      @apply w-full;
+    }
+  }
+  .logo {
+    width: 202px;
+    height: 55px;
+  }
+  .btn {
+    @apply rounded-full bg-neutral-100 py-4 px-6 text-center text-black no-underline;
+    &:hover {
+      @apply bg-blue text-white;
+    }
+  }
+  .curve {
+    @apply absolute bottom-0 right-0;
+    width: 250px;
+    height: 430px;
+  }
+  @media (max-width: 1900px) {
+  }
+  @media (max-width: 1900px) {
+  }
+}
+
+.userInfo {
+  @apply flex flex-col items-center gap-5;
+}
+.Slider {
+  @apply absolute w-full max-w-[390px];
+  bottom: 100px;
+  right: 30px;
+
+  > div {
+    @apply absolute bottom-8 right-0 opacity-0 transition-opacity duration-500 ease-in;
+
+    &:global(.active) {
+      opacity: 1;
+    }
+  }
+}
+
+.avatarContainer {
+  @apply absolute top-1/2 flex gap-1;
+  transform: translateY(-50%) translateY(63px);
+  right: 394px;
+
+  @media screen and (min-width: 1921px) {
+    right: 40%;
+  }
+  @media screen and (max-width: 1200px) {
+    right: 360px;
+  }
+
+  .column {
+    @apply flex h-full w-1/2 flex-col gap-6;
+
+    &:nth-child(1) {
+      @apply mt-[-126px];
+    }
+
+    .filler {
+      @apply h-[228px] w-[228px] rounded-full bg-[#1F1F1F]/[.5];
+    }
+
+    .avatar {
+      @apply relative h-[228px] w-[228px] overflow-hidden rounded-full bg-[#1F1F1F];
+
+      > span {
+        img {
+          @apply opacity-0 transition-opacity duration-500 ease-in;
+
+          &:global(.active) {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.nav {
+  @apply mt-8 flex gap-3;
+
+  li {
+    @apply h-[2px] w-[2px] bg-white/[.6] transition-transform  duration-300 ease-in;
+
+    &:global(.active) {
+      @apply bg-white;
+      transform: scaleX(700%);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.RoundedButton {
+  &:global {
+    &.cds--btn {
+      @apply h-[48px] max-h-[48px] min-h-[48px] w-[48px] max-w-[48px] rounded-full p-0;
+
+      &--sm {
+        @apply h-[28px] max-h-[28px] min-h-[28px] w-[28px] max-w-[28px];
+      }
+    }
+  }
+}

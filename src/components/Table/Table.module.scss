@@ -1,0 +1,139 @@
+.TableWrapper :global {
+  .table {
+    @apply w-[100%] min-w-[150px];
+
+    svg,
+    input[type='checkbox'] {
+      @apply cursor-pointer;
+    }
+
+    &.--min-width {
+      @apply min-w-[350px];
+    }
+
+    thead {
+      @apply bg-neutral-200 text-left;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+      &.plain {
+        @apply bg-white;
+      }
+    }
+
+    .table-header__item,
+    .table-col__item {
+      @apply flex items-center justify-between;
+
+      input[type='checkbox'] {
+        @apply mr-[12px];
+      }
+    }
+
+    .table-header__content,
+    .table-col__content {
+      @apply flex items-center;
+    }
+
+    .table-header__item,
+    .table-col__item {
+      @apply text-ellipsis;
+
+      &.--is-number {
+        @apply justify-end;
+      }
+      &.--is-centered {
+        @apply justify-center;
+      }
+    }
+
+    th {
+      @apply px-[16px] pt-[24px] pb-[11px];
+
+      p {
+        @apply font-bold;
+      }
+
+      &.bordered {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+      }
+    }
+
+    td {
+      @apply px-[16px] pt-[8px] pb-[8px] align-middle;
+
+      &.bordered {
+        border: 1px solid rgba(0, 0, 0, 0.08);
+      }
+    }
+
+    tbody tr {
+      @apply text-gray-darkest;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+      &.--alternate {
+        &:nth-child(even) {
+          @apply bg-neutral-100;
+        }
+      }
+
+      &.--active {
+        @apply bg-blue-100;
+      }
+
+      &.--total-row {
+        @apply bg-neutral-100;
+
+        p {
+          @apply text-base font-bold;
+        }
+      }
+    }
+
+    &.--regular {
+      th {
+        @apply pt-[20px] pb-[7px];
+      }
+
+      td {
+        @apply pt-[16px] pb-[14px];
+      }
+    }
+
+    &.--condensed {
+      th {
+        @apply pt-[16px] pb-[3px];
+      }
+
+      td {
+        @apply pt-[12px] pb-[10px];
+      }
+    }
+  }
+}
+
+.TableWrapperHasBorder {
+  @apply rounded-[8px];
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.TableWrapperFullWidth {
+  @apply w-[100%];
+}
+
+.TableWrapperHeader {
+  @apply flex items-center justify-between px-[16px] py-[25px];
+}
+
+.popupContainer {
+  @apply absolute top-6 -right-1 z-10 w-[180px] py-2 text-gray-darkest;
+
+  a {
+    div {
+      @apply my-auto;
+    }
+  }
+}
+
+.paginationStyle {
+  color: #8f8fae !important;
+}

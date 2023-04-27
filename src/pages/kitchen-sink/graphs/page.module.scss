@@ -1,0 +1,10 @@
+.Page :global {
+}
+
+.ComponentContainer {
+  @apply mb-[40px] flex justify-around;
+
+  &:last-child {
+    @apply mb-[0px];
+  }
+}

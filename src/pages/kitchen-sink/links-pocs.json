@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "link": "/kitchen-sink/poc/test",
+      "label": "Test: fetching users"
+    },
+    {
+      "link": "/kitchen-sink/poc/test-hours-poc",
+      "label": "POC: Total Company Hours"
+    },
+    {
+      "link": "/kitchen-sink/poc/test-subscriptions-poc",
+      "label": "POC: Company Subscriptions"
+    },
+    {
+      "link": "/kitchen-sink/poc/payment",
+      "label": "Payment POC"
+    }
+  ]
+}

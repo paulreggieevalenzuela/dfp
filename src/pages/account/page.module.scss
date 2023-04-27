@@ -1,0 +1,32 @@
+.Page :global {
+  @apply fixed overflow-x-hidden xl:relative;
+
+  p,
+  h5 {
+    @apply text-black;
+  }
+
+  .account__header {
+    @apply absolute right-0 left-0 h-[140px] bg-[#F8F8FA];
+  }
+
+  .plan-information {
+    @apply mt-[45px] flex justify-between;
+  }
+
+  .user-info {
+    @apply flex;
+  }
+
+  .user-info-wrapper {
+    @apply flex items-center;
+
+    &:first-child {
+      @apply mr-[60px];
+    }
+
+    & > div {
+      @apply ml-[12px];
+    }
+  }
+}

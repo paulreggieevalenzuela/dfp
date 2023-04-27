@@ -1,0 +1,128 @@
+{
+  "Version 01": {
+    "title": "Version 01",
+    "author": {
+      "name": "John Doe",
+      "src": "/images/mock/profile3.png"
+    },
+    "time": "3h",
+    "link": "https://www.figma.com/file/pudMRoOPL2CntMZUDz9k6r/Project-Ace-UI-Design-System-(Light)?node-id=3076%3A98360",
+    "description": "Here's the latest updates: \n\n 1. Blandit cursus risus at ultrices mi tempus. \n 2. Mauris in aliquam sem fringilla ut morbi tincidunt augue. \n 3. Fermentum et sollicitudin ac orci phasellus. \n 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "isLikedByUser": true,
+    "likeCount": 1,
+    "watcherCount": 2,
+    "deliverables": [
+      {
+        "title": "Twitter Banner",
+        "date": "May 11",
+        "priority": 1,
+        "actions": [
+          {
+            "label": "Action"
+          }
+        ]
+      },
+      {
+        "title": "Instagram Story",
+        "date": "May 15",
+        "priority": 2
+      },
+      {
+        "title": "Instagram Post",
+        "date": "June 8",
+        "priority": 3
+      }
+    ],
+    "thread": [
+      {
+        "user": {
+          "name": "Robert Fox",
+          "src": "/images/mock/profile4.png"
+        },
+        "comment": "Lorem ipsum dolor sit amet, <span>@jennifer</span> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n\n Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum. Duis convallis convallis tellus id.",
+        "time": "3h",
+        "likeCount": 1,
+        "likedByUser": false,
+        "watchCount": 2,
+        "replies": [
+          {
+            "user": {
+              "name": "Jennifer",
+              "src": "/images/mock/profile6.png"
+            },
+            "comment": "Yes!",
+            "time": "3h",
+            "likeCount": 2,
+            "likedByUser": true,
+            "watchCount": 2
+          },
+          {
+            "user": {
+              "name": "Sophie Rousseau",
+              "src": "/images/mock/profile2.png"
+            },
+            "comment": "Ipsum a arcu cursus vitae. Tellus molestie nunc non blandit massa enim nec. Consectetur a erat nam at lectus urna duis convallis convallis. Quam nulla porttitor massa id neque aliquam vestibulum. \n\n Thank you! :)",
+            "time": "1m",
+            "likeCount": 0,
+            "likedByUser": false,
+            "watchCount": 0
+          }
+        ]
+      }
+    ]
+  },
+  "First Draft": {
+    "title": "First Draft",
+    "author": {
+      "name": "Michael Doe",
+      "src": "/images/mock/profile4.png"
+    },
+    "time": "1d",
+    "link": "https://www.figma.com/file/pudMRoOPL2CntMZUDz9k6r/Project-Ace-UI-Design-System-(Light)?node-id=3076%3A98360",
+    "description": "Ongoing research and development",
+    "isLikedByUser": false,
+    "likeCount": 2,
+    "watcherCount": 3,
+    "deliverables": [
+      {
+        "title": "Twitter Banner",
+        "date": "May 11"
+      },
+      {
+        "title": "Instagram Post",
+        "date": "June 8"
+      }
+    ],
+    "thread": [
+      {
+        "user": {
+          "name": "Jane Doe",
+          "src": "/images/mock/profile1.png"
+        },
+        "comment": "Lectus sit amet est placerat in egestas erat imperdiet sed. Duis at consectetur lorem donec massa. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Aliquet risus feugiat in ante metus dictum at tempor. Sed sed risus pretium quam vulputate dignissim. Lorem sed risus ultricies tristique nulla. Gravida neque convallis a cras.",
+        "time": "7h",
+        "likeCount": 1,
+        "likedByUser": false,
+        "watchCount": 2,
+        "replies": [
+          {
+            "user": {
+              "name": "Troy Smith",
+              "src": "/images/mock/profile4.png"
+            },
+            "comment": "I love it!",
+            "time": "3h",
+            "likeCount": 2,
+            "likedByUser": true,
+            "watchCount": 2
+          }
+        ]
+      }
+    ]
+  },
+  "socialMediaCampaignForm": {
+    "user": "Sophie Rousseau",
+    "src": "/images/mock/profile2.png",
+    "deadlineDate": "June 28, 2022"
+  }
+}

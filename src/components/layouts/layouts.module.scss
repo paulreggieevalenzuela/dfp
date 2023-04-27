@@ -1,0 +1,125 @@
+.Container {
+  @apply mx-auto w-full max-w-[1300px] px-[30px];
+}
+
+.Main {
+  @apply min-h-screen min-w-[1300px] bg-[#F8F8FA] py-8 pl-[68px] duration-300 ease-in-out;
+
+  &.--white {
+    @apply bg-white;
+  }
+
+  &.expanded {
+    @apply pl-[205px];
+  }
+}
+
+.KitchenSink :global {
+  [class*='Container'] {
+    > h3 {
+      @apply mb-6;
+    }
+    [class*='TitleBar'] {
+      position: relative;
+      width: calc(100% + 60px);
+      left: -30px;
+    }
+  }
+  & :local {
+    > section {
+      @apply py-20;
+    }
+  }
+}
+
+.Account :global {
+  @apply h-screen w-full bg-[#F8F8FA];
+  main {
+    @apply min-w-[768px];
+    > [class*='Container'] {
+    }
+  }
+}
+
+.Projects {
+  @extend .Account;
+  > main {
+    @apply pt-0;
+
+    &.expanded {
+      [class^='projects_container_'] {
+        @apply pl-[140px];
+      }
+    }
+  }
+}
+
+.SocialMediaCampaign {
+  //TO DO: enhance once responsive design requirements are available (no relayout for now, current layout just adjusts to current viewport/browser resize)
+  @apply min-w-[1300px];
+
+  @media screen and (max-width: 1024px) {
+    @apply min-w-[1440px];
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1535px) {
+    @apply min-w-[1600px];
+  }
+
+  @media screen and (min-width: 1600px) {
+    @apply min-w-[1900px];
+  }
+
+  > main {
+    &.expanded {
+      @media screen and (max-width: 1024px) {
+        [class^='socialMediaCampaign_SocialMediaInformation_'] {
+          width: 450px !important;
+        }
+
+        [class^='socialMediaCampaign_rightContainer_'] {
+          margin-left: 455px !important;
+        }
+
+        [class^='socialMediaCampaign_replyContainer_'] {
+          margin-left: 855px !important;
+        }
+      }
+
+      @media screen and (min-width: 1536px) and (max-width: 1600px) {
+        @apply min-w-[1600px];
+
+        [class^='socialMediaCampaign_rightContainer_'] {
+          margin-left: 555px !important;
+        }
+
+        [class^='socialMediaCampaign_SocialMediaInformation_'] {
+          width: 550px !important;
+        }
+
+        [class^='socialMediaCampaign_replyContainer_'] {
+          margin-left: 955px !important;
+        }
+      }
+
+      @media screen and (min-width: 1601px) {
+        [class^='socialMediaCampaign_SocialMediaInformation_'] {
+          @apply w-[780px];
+        }
+  
+        [class^='socialMediaCampaign_rightContainer_'] {
+          @apply ml-[780px];
+        }
+  
+        [class^='socialMediaCampaign_replyContainer_'] {
+          @apply ml-[1185px];
+        }
+      }
+
+      [class^='socialMediaCampaign_container_'] {
+        @apply pl-[140px];
+      }
+    }
+    
+  }
+}

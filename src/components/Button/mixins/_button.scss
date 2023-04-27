@@ -1,0 +1,62 @@
+@import './_filled-button.scss';
+@import './_outline-button.scss';
+@import './_link-button.scss';
+@import './_lite-button.scss';
+
+@mixin button-hover($kind: primary) {
+  @include filled-button-hover($kind);
+
+  &.cds--btn--outline {
+    @include outline-button-hover($kind);
+  }
+
+  &.cds--btn--link {
+    @include link-button-hover($kind);
+  }
+
+  &.cds--btn--lite {
+    @include lite-button-hover($kind);
+  }
+}
+
+@mixin button-active($kind: primary) {
+  @include filled-button-active($kind);
+
+  &.cds--btn--outline {
+    @include outline-button-active($kind);
+  }
+
+  &.cds--btn--link {
+    @include link-button-active($kind);
+  }
+
+  &.cds--btn--lite {
+    @include lite-button-active($kind);
+  }
+}
+
+@mixin button($kind: primary) {
+  @apply transition-none;
+  @include filled-button($kind);
+
+  &.cds--btn--outline {
+    @include outline-button($kind);
+  }
+
+  &.cds--btn--link {
+    @include link-button($kind);
+  }
+
+  &.cds--btn--lite {
+    @include lite-button($kind);
+  }
+
+  &:hover:not(:disabled) {
+    @include button-hover($kind);
+  }
+
+  &:active:not(:hover):not(:disabled),
+  &.selected:not(:hover):not(:disabled) {
+    @include button-active($kind);
+  }
+}

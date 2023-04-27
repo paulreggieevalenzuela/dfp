@@ -1,0 +1,19 @@
+.Page {
+  /*section {
+    @apply outline outline-1 outline-green w-[350px];
+  }
+
+  span {
+    @apply py-2 font-normal text-[22px] text-gray-darkest flex outline outline-1 outline-red;
+  }*/
+}
+
+.textEditors {
+  @apply w-[350px];
+}
+
+.label {
+  @apply flex py-3 text-[22px] font-normal text-gray-darkest;
+  border: solid rgba(0, 0, 0, 0.08);
+  border-width: 0px 0px 1px 0px;
+}

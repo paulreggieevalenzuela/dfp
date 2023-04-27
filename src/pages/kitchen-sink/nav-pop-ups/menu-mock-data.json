@@ -1,0 +1,56 @@
+{
+  "menu": [
+    {
+      "label": "Paragraph Style",
+      "withArrow": true
+    },
+    {
+      "label": "Align",
+      "withArrow": true
+    },
+    {
+      "label": "Line Spacing",
+      "withArrow": true,
+      "subItems": [
+        {
+          "label": "Single"
+        },
+        {
+          "label": "Custom"
+        }
+      ]
+    },
+    {
+      "label": "Numbered Lists",
+      "withArrow": true
+    }
+  ],
+  "popupMenu": [
+    {
+      "label": "Kelly Kapoor",
+      "subtext": "kelly@company.com",
+      "avatar": "/images/mock/dropdown-avatar.png",
+      "className": "mb-2"
+    },
+    {
+      "label": "Profile",
+      "icon": "star",
+      "isSeparated": true
+    },
+    {
+      "label": "Billing",
+      "icon": "star"
+    },
+    {
+      "label": "Settings",
+      "icon": "star"
+    },
+    {
+      "label": "Logout",
+      "link": "/logout",
+      "icon": "star",
+      "labelStyle": "text-red",
+      "isSeparated": true
+    }
+  ]
+}

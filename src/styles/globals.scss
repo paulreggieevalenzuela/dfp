@@ -1,0 +1,6 @@
+@forward './carbon-theme';
+
+@tailwind utilities;
+
+@import './base/font-families.scss';
+@import './base/typography.scss';

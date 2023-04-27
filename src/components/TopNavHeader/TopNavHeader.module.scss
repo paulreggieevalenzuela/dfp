@@ -1,0 +1,22 @@
+.container {
+  @apply flex justify-between;
+
+  span.title {
+    @apply text-2xl font-medium;
+  }
+
+  .hourContainer {
+    @apply flex mx-2 h-8 w-8 rounded-full;
+    span {
+      @apply flex m-auto text-xs font-normal;
+    }
+    border: 1px solid #EDEDF2;
+  }
+
+  .ellipsis {
+    @apply ml-3 m-auto;
+    svg {
+      @apply flex text-neutral-400;
+    }
+  }
+}

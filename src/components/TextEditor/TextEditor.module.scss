@@ -1,0 +1,72 @@
+.TextEditor {
+  @apply relative min-h-[227px] rounded-lg bg-white hover:outline hover:outline-1 hover:outline-blue-700;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  div {
+    &.active {
+      @apply outline outline-1 outline-gray-darkest;
+    }
+  }
+}
+
+.labelContainer {
+  @apply mb-2 mt-10 flex w-[350px] justify-between;
+}
+
+.label {
+  @apply text-xs font-medium text-gray-darkest;
+}
+
+.hint {
+  @apply text-xs font-medium text-neutral-400;
+}
+
+.editor {
+  @apply min-h-[227px] p-2 text-base font-normal;
+}
+
+.toolbar {
+  @apply flex h-[40px] flex-row bg-neutral-100;
+}
+
+.styleList {
+  @apply m-1 ml-2 inline-block p-1.5 hover:rounded-sm hover:bg-nav-button;
+}
+
+.activeStyle {
+  @apply rounded-sm bg-nav-button;
+}
+
+.alignRight div {
+  @apply text-right;
+}
+
+.alignLeft div {
+  @apply text-left;
+}
+
+.alignCenter div {
+  @apply text-center;
+}
+
+.focused {
+  @apply outline outline-1 outline-gray-darkest hover:outline hover:outline-1 hover:outline-gray-darkest;
+  box-shadow: 0px 0px 0px 4px #e8edff;
+}
+
+.loader {
+  @apply w-10 h-10;
+  border: 5px solid #F6F6F8;
+  border-top: 5px solid #D0D0DD;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

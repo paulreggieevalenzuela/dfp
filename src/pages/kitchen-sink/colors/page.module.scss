@@ -1,0 +1,30 @@
+.Page :global {
+  // Current Page only styles
+  .row {
+    @apply my-[36px] flex flex-col gap-8;
+    @apply md:flex-row;
+    .col {
+      @apply w-full md:w-1/3;
+    }
+  }
+  header {
+    @apply mb-7 flex min-h-[60px] flex-col gap-1;
+    p {
+      @apply text-xs;
+    }
+  }
+  .items {
+    @apply flex flex-col gap-1 overflow-hidden rounded-lg;
+    div {
+      @apply grid h-8 place-items-center;
+      span {
+        @apply text-xs text-white;
+      }
+      &:first-child {
+        span {
+          @apply text-gray-700;
+        }
+      }
+    }
+  }
+}

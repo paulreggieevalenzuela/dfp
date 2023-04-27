@@ -1,0 +1,67 @@
+@import './mixins/_button.scss';
+
+.ComboButton {
+  &:global {
+    > .cds--btn {
+      &.main-button {
+        @apply rounded-r-none;
+      }
+
+      &.icon-button {
+        @apply w-[40px] rounded-l-none px-2;
+      }
+      &--sm {
+        &.icon-button {
+          @apply w-[32px] px-1;
+        }
+      }
+
+      &--fixed-size {
+        &.main-button {
+          @apply w-[110px] min-w-[110px] max-w-[110px];
+        }
+
+        &.icon-button {
+          @apply w-[40px] min-w-[40px] max-w-[40px];
+        }
+      }
+    }
+  }
+
+  &:hover {
+    @apply cursor-pointer;
+
+    &:global {
+      & > .main-button:not(:disabled),
+      & > .icon-button:not(:disabled) {
+        &.cds--btn--primary {
+          @include button-hover(primary);
+        }
+
+        &.cds--btn--danger {
+          @include button-hover(danger);
+        }
+      }
+    }
+  }
+
+  &:active:not(:hover),
+  &:global(.selected):not(:hover) {
+    &:global {
+      & > .main-button:not(:disabled),
+      & > .icon-button:not(:disabled) {
+        &.cds--btn--primary {
+          @include button-active(primary);
+        }
+
+        &.cds--btn--danger {
+          @include button-active(danger);
+        }
+      }
+    }
+  }
+}
+
+.ComboButton {
+  @apply w-fit;
+}

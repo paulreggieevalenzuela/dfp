@@ -1,0 +1,19 @@
+@use '@carbon/styles/scss/reset';
+@use '@carbon/styles/scss/grid';
+@use '@carbon/styles/scss/type';
+
+// TODO: remove line below and replace with only actual used components
+@use '@carbon/styles/scss/components/button';
+@use '@carbon/styles/scss/components/modal';
+@use '@carbon/styles/scss/components/checkbox';
+@use '@carbon/styles/scss/components/link';
+@use '@carbon/styles/scss/components/toggle';
+@use '@carbon/styles/scss/components/notification';
+@use '@carbon/styles/scss/components/radio-button';
+// TODO: get only actual used components i.e.
+// @use 'carbon-components-react/scss/components/button';
+// @use 'carbon-components-react/scss/components/toggle';
+
+// Carbon styles overrides here:
+
+@import './components.scss';

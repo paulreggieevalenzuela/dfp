@@ -1,0 +1,45 @@
+.Dropzone {
+  @apply inline-flex flex-col;
+
+  span,
+  a {
+    @apply text-base font-bold;
+
+    svg {
+      @apply m-auto mb-7 block h-5 w-5;
+    }
+  }
+
+  a {
+    @apply text-blue-700;
+  }
+
+  @mixin default-box-style {
+    @apply mb-2.5 box-border flex h-[150px] w-[350px] cursor-pointer items-center justify-center rounded;
+  }
+
+  .baseStyle {
+    @include default-box-style();
+    @apply bg-neutral-100;
+    border: 1px dashed rgba(0, 0, 0, 0.12);
+  }
+
+  .rejectStyle {
+    @include default-box-style();
+    @apply border border-solid border-red-300 bg-red-100;
+  }
+
+  .successStyle {
+    @include default-box-style();
+    @apply border border-solid border-green-300 bg-green-100;
+  }
+
+  .uploadStyle {
+    @include default-box-style();
+    @apply border border-solid border-blue-300 bg-blue-100;
+
+    svg {
+      @apply text-blue-300;
+    }
+  }
+}

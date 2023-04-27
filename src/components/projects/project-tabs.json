@@ -1,0 +1,20 @@
+{
+  "tabs": [
+    {
+      "tabName": "My Projects",
+      "link": "/my-projects",
+      "tabKey": "my-projects"
+    },
+    {
+      "tabName": "Team Projects",
+      "link": "/team-projects",
+      "tabKey": "team-projects"
+    }
+  ],
+  "topNav": 
+    {
+      "pageTitle": "Projects",
+      "subscriptionHoursLeft": 0,
+      "subscriptionId": "Test"
+    }
+}

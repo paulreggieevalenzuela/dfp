@@ -1,0 +1,81 @@
+{
+  "expanded": {
+    "topPages": [
+      {
+        "id": "my-tasks",
+        "label": "My tasks",
+        "icon": "checked"
+      },
+      {
+        "id": "projects",
+        "label": "Projects",
+        "icon": "folder"
+      },
+      {
+        "id": "notifications",
+        "label": "Notifications",
+        "icon": "notification",
+        "counter": 2
+      }
+    ],
+    "bottomPages": [
+      {
+        "id": "search",
+        "label": "Search",
+        "icon": "search"
+      },
+      {
+        "id": "help",
+        "label": "Help",
+        "icon": "help"
+      }
+    ],
+    "companyName": "Client Brand",
+    "isCollapsed": false,
+    "canToggle": true,
+    "designRequestEnabled": true,
+    "firstName": "John",
+    "lastName": "Doe",
+    "userAvatar": "/images/mock/profile3.png"
+  },
+  "collapsed": {
+    "topPages": [
+      {
+        "id": "my-tasks",
+        "label": "My tasks",
+        "icon": "checked"
+      },
+      {
+        "id": "projects",
+        "label": "Projects",
+        "icon": "folder"
+      },
+      {
+        "id": "notifications",
+        "label": "Notifications",
+        "icon": "notification",
+        "counter": 2
+      }
+    ],
+    "bottomPages": [
+      {
+        "id": "search",
+        "label": "Search",
+        "icon": "search"
+      },
+      {
+        "id": "help",
+        "label": "Help",
+        "icon": "help"
+      }
+    ],
+    "companyName": "Client Brand",
+    "isCollapsed": true,
+    "canToggle": true,
+    "designRequestEnabled": true,
+    "firstName": "John",
+    "lastName": "Doe",
+    "userAvatar": "/images/mock/profile3.png",
+    "companyLogo": "/images/mock/company-logo.png"
+  }
+}

@@ -1,0 +1,38 @@
+@mixin thumb-style {
+  @apply pointer-events-auto h-5 w-5 cursor-pointer appearance-none rounded-full border-[#000000]/[.12] bg-white shadow-00;
+}
+
+.SliderContainer {
+  .Slider {
+    @apply relative h-5 w-full;
+
+    input {
+      &[type='range'] {
+        @apply pointer-events-none absolute top-0 left-0 z-[3] m-0 w-full appearance-none bg-transparent;
+      }
+
+      &::-webkit-slider-thumb {
+        @include thumb-style;
+      }
+      &::-moz-range-thumb {
+        @include thumb-style;
+      }
+
+      &::-ms-thumb {
+        @include thumb-style;
+      }
+    }
+
+    .track {
+      @apply absolute top-[6px] left-0 z-[1] h-2 w-full rounded-[10px] bg-[#000000]/[.12];
+    }
+
+    .range {
+      @apply absolute top-[6px] left-0 z-[2] h-2 rounded-[10px] bg-blue-700;
+    }
+  }
+
+  .label {
+    @apply mt-2 font-light text-gray-darkest/[.6];
+  }
+}

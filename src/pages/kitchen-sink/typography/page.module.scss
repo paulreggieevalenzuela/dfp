@@ -1,0 +1,37 @@
+.Page :global {
+  // Current Page only styles
+  [class*='Container'] {
+    @apply max-w-[898px];
+  }
+  .row {
+    @apply my-[36px] flex flex-col gap-10;
+    @apply md:flex-row;
+  }
+  .intro {
+    @apply border-b border-solid border-b-gray-200;
+  }
+  .states {
+    @apply mt-6 flex flex-col overflow-hidden rounded-2xl;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    > div {
+      @apply grid-cols-3 p-4;
+      &.dark {
+        @apply bg-black text-white;
+      }
+    }
+  }
+  .col:first-child {
+    @apply min-w-[350px];
+    * {
+      @apply text-[24px] font-bold;
+    }
+  }
+  .col:last-child {
+    @apply flex items-center;
+  }
+  p {
+    @apply text-inherit opacity-100;
+    font-weight: inherit;
+    font-size: inherit;
+  }
+}

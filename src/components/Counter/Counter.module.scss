@@ -1,0 +1,59 @@
+.counter {
+  @apply h-4 w-5 rounded-full text-center text-[11px] leading-[14.8px] text-white;
+}
+
+.primaryCounter {
+  @apply bg-blue-700;
+}
+
+.secondaryCounter {
+  @apply bg-maroon-700;
+}
+
+.successCounter {
+  @apply bg-green-700;
+}
+
+.warningCounter {
+  @apply bg-yellow-700;
+}
+
+.neutralCounter {
+  @apply bg-gray-100 text-black;
+}
+
+.rounded {
+  @apply h-4 w-4;
+}
+
+.medium {
+  @apply h-5 w-5 leading-5;
+}
+
+.large {
+  @apply h-6 w-7 text-sm leading-6;
+}
+
+.largerCounter {
+  @apply w-7;
+}
+
+.largerCounter.medium {
+  @apply h-7 w-7 leading-7;
+}
+
+.largerCounter.rounded {
+  @apply h-6 w-6 leading-6;
+}
+
+.actions {
+  @apply flex justify-end gap-5 py-9;
+  .cds--btn--tertiary {
+    @apply border border-solid border-black text-black;
+  }
+  button {
+    &:hover {
+      @apply bg-black text-white;
+    }
+  }
+}

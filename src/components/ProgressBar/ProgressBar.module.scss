@@ -1,0 +1,40 @@
+.ProgressBar :global {
+  .track {
+    @apply w-full bg-[#000]/[0.08];
+  }
+
+  .track,
+  .bar {
+    @apply h-[8px] rounded-[10px];
+
+    &.small {
+      @apply h-[4px];
+    }
+  }
+  .bar {
+    @apply transition-[width] duration-100 ease-out;
+    
+    &.error {
+      @apply bg-[#E53434];
+    }
+
+    &.warning {
+      @apply bg-[#FFB624];
+    }
+
+    &.success {
+      @apply bg-[#009459];
+    }
+  }
+
+  .progress-values {
+    @apply mt-1 flex w-full text-[16px];
+    .progress-percentage {
+      @apply flex-auto text-left  font-[350] text-[#111111]/[.6];
+    }
+
+    .progress-value {
+      @apply flex-auto text-right font-bold;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "deliverables": [
+    "Facebook Post",
+    "Linkedin Post",
+    "Instagram Post",
+    "Valentine's Post"
+  ],
+  "references": [
+    "Brand Guidelines",
+    "Font files",
+    "Website Inspiration",
+    "Images"
+  ],
+  "deliverablesList": [
+    {
+      "title": "Twitter Banner",
+      "date": "May 11",
+      "priority": 4
+    },
+    {
+      "title": "Instagram Story",
+      "date": "May 15",
+      "priority": 4
+    },
+    {
+      "title": "Instagram Post",
+      "date": "Set Due Date",
+      "priority": 4
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "header": {
+    "status": "Pending",
+    "dueDates": "Apr 25 - Apr 29",
+    "estimatedHours": 24,
+    "loggedHours": 16,
+    "user": {
+      "name": "John Doe",
+      "src": "/images/mock/profile3.png"
+    },
+    "team": [
+      {
+        "name": "Ana Smith",
+        "src": "/images/mock/profile1.png"
+      },
+      {
+        "name": "Sofia Jackson",
+        "src": "/images/mock/profile2.png"
+      },
+      {
+        "name": "Olivia Alvarez",
+        "src": "/images/mock/profile5.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+.Dropdown {
+  a {
+    @apply text-gray-darkest;
+    &:hover {
+      @apply cursor-pointer bg-blue-lightest z-10;
+
+      .subMenuContainer {
+        @apply block;
+      }
+    }
+  }
+}
+
+.isSeparated {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.subMenuStyle {
+  @apply w-[150px] gap-3 py-2.5 pr-3 pl-4 hover:cursor-pointer hover:bg-blue-lightest;
+}
+
+.subMenuContainer {
+  @apply absolute left-full hidden;
+}

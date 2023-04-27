@@ -1,0 +1,28 @@
+{
+  "tabs": [
+    {
+      "tabName": "Updates",
+      "icon": "branch",
+      "link": "/social-media-campaign-updates",
+      "tabKey": "social-media-campaign-updates"
+    },
+    {
+      "tabName": "Overview",
+      "icon": "document",
+      "link": "/social-media-campaign-overview",
+      "tabKey": "social-media-campaign-overview"
+    },
+    {
+      "tabName": "References",
+      "icon": "clip",
+      "link": "/social-media-campaign-references",
+      "tabKey": "social-media-campaign-references"
+    },
+    {
+      "tabName": "Activity",
+      "icon": "history",
+      "link": "/social-media-campaign-activity",
+      "tabKey": "social-media-campaign-activity"
+    }
+  ]
+}

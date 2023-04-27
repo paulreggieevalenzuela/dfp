@@ -1,0 +1,11 @@
+.TableRowAvatar {
+  @apply flex flex-row-reverse z-0;
+
+  div:first-child {
+    @apply -ml-1;
+  }
+
+  div:only-child {
+    @apply ml-1;
+  }
+}

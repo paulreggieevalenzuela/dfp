@@ -1,0 +1,92 @@
+@mixin clip-triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+@mixin -clip-triangle {
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+.Tooltip {
+  @apply relative inline-block;
+
+  .label {
+    @apply absolute hidden w-max max-w-[200px] rounded-[4px] bg-gray-darkest p-2 text-xs font-[500] text-white;
+
+    &.top {
+      @apply bottom-full left-1/2;
+      transform: translate(-50%, -9px);
+
+      &-left {
+        @apply bottom-full left-0;
+        transform: translate(0, -9px);
+      }
+
+      &-right {
+        @apply bottom-full right-0;
+        transform: translate(0, -9px);
+      }
+    }
+
+    &.bottom {
+      @apply top-full left-1/2;
+      transform: translate(-50%, 9px);
+
+      &-left {
+        @apply top-full left-0;
+        transform: translate(0, 9px);
+      }
+
+      &-right {
+        @apply top-full right-0;
+        transform: translate(0, 9px);
+      }
+    }
+  }
+
+  .caret {
+    @apply absolute hidden h-[6px] w-[8px] bg-gray-darkest;
+
+    &.top {
+      @apply top-0 left-1/2;
+      @include -clip-triangle;
+      transform: translate(-50%, -10px);
+
+      &-left {
+        @apply top-0  left-2;
+        @include -clip-triangle;
+        transform: translate(0, -10px);
+      }
+
+      &-right {
+        @apply top-0  right-2;
+        @include -clip-triangle;
+        transform: translate(0, -10px);
+      }
+    }
+
+    &.bottom {
+      @apply bottom-0 left-1/2;
+      @include clip-triangle;
+      transform: translate(-50%, 10px);
+
+      &-left {
+        @apply bottom-0 left-2;
+        @include clip-triangle;
+        transform: translate(0, 10px);
+      }
+
+      &-right {
+        @apply bottom-0 right-2;
+        @include clip-triangle;
+        transform: translate(0, 10px);
+      }
+    }
+  }
+
+  &:global(.open) {
+    .label,
+    .caret {
+      @apply block;
+    }
+  }
+}

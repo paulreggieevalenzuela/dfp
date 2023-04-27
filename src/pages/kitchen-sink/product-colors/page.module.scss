@@ -1,0 +1,17 @@
+.Page :global {
+  //Page specific styles here if needed
+
+  section {
+    span {
+      margin-bottom: 11px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.1px;
+      color: #111111;
+    }
+  }
+}

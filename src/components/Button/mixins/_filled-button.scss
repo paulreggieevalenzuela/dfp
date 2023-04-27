@@ -1,0 +1,70 @@
+@mixin filled-button-hover($kind: primary) {
+  @if $kind == primary {
+    @apply bg-blue-700;
+
+    &.dark {
+      @apply bg-white text-blue-700;
+    }
+  }
+
+  @if $kind == danger {
+    @apply bg-red-800;
+  }
+}
+
+@mixin filled-button-active($kind: primary) {
+  @if $kind == primary {
+    @apply bg-blue-900;
+
+    &.dark {
+      @apply bg-blue-200 text-blue-darkest;
+    }
+  }
+
+  @if $kind == danger {
+    @apply bg-red-900;
+  }
+}
+
+@mixin filled-button($kind: primary) {
+  &.icon-button,
+  & > .icon-button {
+    @apply border-0 border-l-[1px] border-solid border-white;
+
+    &.dark {
+      @apply border-gray-darkest;
+    }
+  }
+
+  @if $kind == primary {
+    &,
+    &:focus {
+      @apply bg-gray-darkest;
+
+      &.dark {
+        @apply bg-blue-700;
+      }
+    }
+  }
+
+  @if $kind == danger {
+    &,
+    &:focus {
+      @apply bg-red-700 text-white;
+    }
+  }
+
+  &:disabled {
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+      @apply bg-gray-lightest text-gray-darkest/[.38];
+
+      &.icon-button,
+      & > .icon-button {
+        @apply border-[#000000]/[.08];
+      }
+    }
+  }
+}

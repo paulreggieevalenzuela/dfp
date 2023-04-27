@@ -1,0 +1,87 @@
+@mixin lite-button-hover($kind: primary) {
+  &.icon-button,
+  & > .icon-button {
+    @apply border-0 border-l-[1px] border-solid border-white;
+  }
+  @if $kind == primary {
+    @apply bg-blue-700 text-white;
+  }
+
+  @if $kind == danger {
+    @apply bg-red-50 text-red-800;
+    &.icon-button,
+    & > .icon-button {
+      @apply border-red-800;
+    }
+  }
+}
+
+@mixin lite-button-active($kind: primary) {
+  &.icon-button,
+  & > .icon-button {
+    @apply border-0 border-l-[1px] border-solid border-blue-200;
+  }
+
+  @if $kind == primary {
+    @apply bg-neutral-100 text-blue-darkest;
+    &.icon-button,
+    & > .icon-button {
+      @apply border-l-blue-200;
+    }
+  }
+
+  @if $kind == danger {
+    @apply bg-red-100 text-red-900;
+    &.icon-button,
+    & > .icon-button {
+      @apply border-red-900;
+    }
+  }
+}
+
+@mixin lite-button($kind: primary) {
+  @apply bg-neutral-100;
+
+  &.icon-button,
+  & > .icon-button {
+    @apply border-0 border-l-[1px] border-solid border-gray-200;
+  }
+
+  @if $kind == primary {
+    &,
+    &:focus {
+      @apply text-gray-darkest;
+
+      &.icon-button,
+      & > .icon-button {
+        @apply border-l-[1px];
+      }
+    }
+  }
+
+  @if $kind == danger {
+    &,
+    &:focus {
+      @apply text-red-700;
+
+      &.icon-button,
+      & > .icon-button {
+        @apply border-l-[1px] border-red-700;
+      }
+    }
+  }
+
+  &:disabled {
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+      @apply bg-gray-100 text-gray-darkest/[.38];
+
+      &.icon-button,
+      & > .icon-button {
+        @apply border-[#000000]/[.12];
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.Badge :global {
+  @apply inline-flex items-center rounded-[50px] p-[8px] text-center text-[14px] capitalize leading-[16.8px] text-white;
+
+  .Badge__icon {
+    @apply mr-[4px] flex;
+  }
+}
+
+.Small {
+  @apply px-[6px] pt-[5.5px] pb-[6px] text-[12px] leading-[14.4px];
+}
+
+.Primary {
+  background-color: #027aff;
+}
+
+.Secondary {
+  background-color: #a8245b;
+}
+
+.Error {
+  background-color: #e53434;
+}
+
+.Warning {
+  background-color: #faa700;
+}
+
+.Success {
+  background-color: #008a53;
+}
+
+.Disabled {
+  background-color: #545478;
+}
+
+.Neutral {
+  @apply text-gray-400;
+  background-color: #ededf2;
+}

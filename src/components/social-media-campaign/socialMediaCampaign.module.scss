@@ -1,0 +1,293 @@
+.SocialMediaHeader {
+  .container {
+    @apply fixed top-0 right-0 left-[68px] z-10 h-[110px] bg-white;
+  }
+
+  .header {
+    @apply inline-block h-[66px] w-full pl-6 pt-2;
+  }
+
+  .tabContainer {
+    @apply flex h-[45px] flex-row border-b-[1px] border-solid border-gray-100 pl-4;
+  }
+
+  a {
+    @apply text-inherit break-all;
+  }
+
+  .childrenContainer {
+    @apply flex w-full flex-col justify-center gap-1 pt-[105px] lg:max-w-[930px];
+  }
+}
+
+.SocialMediaSidebar {
+  @apply z-10;
+  svg {
+    @apply absolute top-6 left-48 cursor-pointer text-gray-400;
+  }
+}
+
+.SocialMediaSidebar :global {
+  @apply fixed top-[110px] flex h-screen w-[200px] border-r-[1px] border-solid border-gray-100 bg-white;
+
+  /* radio buttons custom styles */
+
+  .cds--radio-button:checked ~ label {
+    div {
+      @apply text-gray-darkest;
+    }
+  }
+
+  .cds--radio-button__appearance::after {
+    @apply absolute left-[10px] top-[19px] block h-[20px] w-[2px] bg-gray-300;
+    content: ' ';
+  }
+
+  .cds--radio-button-wrapper {
+    margin-bottom: 1rem !important;
+  }
+
+  .cds--radio-button-group {
+    @apply mx-auto mt-5;
+  }
+
+  .cds--form-item {
+    @apply w-[200px];
+  }
+}
+
+.SocialMediaInformation {
+  @apply fixed z-10 -mt-7 h-full min-h-full w-[685px] bg-white p-5;
+
+  @media screen and (min-width: 1600px) {
+    @apply w-[885px];
+  }
+
+  @media screen and (max-width: 1024px) {
+    @apply w-[550px];
+  }
+
+  .topRow {
+    @apply flex flex-row justify-between align-middle;
+
+    .topRowLeft {
+      @apply flex flex-row items-center text-xl font-medium;
+      svg {
+        @apply text-blue-700;
+      }
+    }
+
+    .topRowRight {
+      @apply flex flex-row items-center gap-3 text-sm;
+      svg {
+        @apply flex cursor-pointer text-blue-700;
+      }
+
+      .likes {
+        @apply flex cursor-pointer gap-2;
+
+        span {
+          @apply text-blue-700;
+        }
+      }
+
+      .watchers {
+        @apply flex gap-1;
+      }
+
+      .watch {
+        @apply mt-0.5 text-gray-200;
+      }
+
+      .more {
+        @apply text-gray-400;
+      }
+    }
+  }
+
+  .descriptionHeader {
+    @apply mt-8 flex flex-row;
+
+    .labelContainer {
+      @apply ml-3;
+    }
+
+    .labelTitle,
+    .labelDivider,
+    .labelTime {
+      @apply text-gray-darkest;
+    }
+
+    .labelTitle {
+      @apply font-medium;
+    }
+  }
+
+  .descriptionBody {
+    @apply mt-8;
+
+    a,
+    .readMore {
+      @apply cursor-pointer text-blue-700;
+    }
+
+    .body {
+      @apply mt-5 whitespace-pre-line leading-6;
+    }
+
+    .readMore {
+      @apply border-b-[1px] border-solid border-[#000000]/[.08] py-4 text-center;
+    }
+  }
+
+  .deliverables {
+    @apply mt-8;
+
+    h6 {
+      @apply mb-4 text-[18px] font-medium;
+    }
+  }
+}
+
+div.labelContainer {
+  @apply -mt-0.5 flex flex-row items-center;
+}
+
+div.labelTitle {
+  @apply text-sm font-normal  text-gray-400;
+}
+
+div.labelTime {
+  @apply text-xs font-normal  text-gray-400;
+}
+
+div.labelDivider {
+  @apply text-gray-400;
+}
+
+.SocialMediaThread {
+  @apply flex flex-col p-5;
+
+  .labelTitle {
+    @apply flex w-[100px] items-center gap-3 font-medium text-gray-darkest;
+
+    svg {
+      @apply cursor-pointer text-blue-700;
+    }
+  }
+
+  .divider {
+    width: 400px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.08);
+
+    @media screen and (min-width: 1600px) {
+      width: 550px;
+    }
+  }
+
+  .labelTime {
+    @apply flex items-center;
+  }
+
+  .threadContainer {
+    @apply flex flex-col rounded-lg bg-white p-5;
+
+    .replies {
+      @apply pl-10;
+
+      .commentContainer {
+        @apply w-[360px];
+
+        @media screen and (min-width: 1600px) {
+          @apply w-[560px];
+        }
+      }
+    }
+  }
+
+  .replyContainer {
+    @apply fixed bottom-0 left-0 right-0 ml-[954px] flex flex-row items-center justify-between space-x-2 border-[1px] border-solid border-gray-100 bg-white p-3;
+
+    @media screen and (max-width: 1024px) {
+      @apply ml-[822px];
+    }
+
+    @media screen and (min-width: 1600px) {
+      @apply ml-[1155px];
+    }
+  }
+}
+
+.CommentBox {
+  @apply p-1;
+  .commentContainer {
+    @apply w-[400px] bg-gray-50 p-3;
+    border-radius: 0px 4px 4px 4px;
+
+    @media screen and (min-width: 1600px) {
+      @apply w-[600px];
+    }
+  }
+
+  .name {
+    @apply text-sm font-medium text-blue-700;
+  }
+
+  .time {
+    @apply text-sm text-gray-300;
+  }
+
+  .actions {
+    @apply flex flex-row items-center justify-between p-1 text-sm text-gray-darkest;
+
+    svg {
+      @apply cursor-pointer;
+    }
+
+    div {
+      @apply flex items-center;
+    }
+
+    .like {
+      @apply -mt-1 text-gray-400;
+    }
+
+    .liked {
+      @apply -mt-1 text-blue-700;
+    }
+
+    .watch {
+      @apply mt-0.5 text-gray-200;
+    }
+  }
+
+  .comment {
+    @apply whitespace-pre-line text-sm leading-5 text-gray-darkest;
+
+    span {
+      @apply text-blue-700 cursor-pointer;
+    }
+  }
+}
+
+.SocialMediaContainer {
+  @apply flex flex-row;
+
+  //TO DO : width calc when responsive design requirements are available
+  .leftContainer {
+    @apply ml-[200px];
+  }
+
+  .rightContainer {
+    @apply ml-[696px] -mt-[20px] flex flex-grow;
+
+    @media screen and (max-width: 1024px) { 
+      @apply ml-[596px];
+    }
+
+    @media screen and (min-width: 1600px) {
+      @apply ml-[896px];
+    }
+  }
+}

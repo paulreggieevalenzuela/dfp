@@ -1,0 +1,198 @@
+.Card :global {
+  @apply w-[300px] cursor-pointer bg-white shadow-00 duration-300 ease-in-out;
+
+  .card__content {
+    @apply p-[16px];
+  }
+
+  p {
+    @apply leading-[25.2px];
+  }
+
+  .card__title {
+    @apply mb-[4px];
+  }
+
+  .card__mini__title {
+    @apply text-base font-normal;
+  }
+
+  .card__desc__img {
+    p {
+      @apply text-base font-normal;
+      color: rgba(17, 17, 17, 0.6);
+
+      &.small {
+        @apply leading-none;
+      }
+    }
+  }
+
+  .card__desc__no__img {
+    p {
+      @apply text-lg font-light;
+      color: rgba(17, 17, 17, 0.6);
+    }
+  }
+
+  .card__desc__large {
+    @apply -mt-3;
+
+    p {
+      @apply text-4xl font-medium text-gray-darkest;
+    }
+  }
+
+  .card__avatars {
+    @apply m-1 -mt-2 flex;
+
+    & > div {
+      @apply mr-[5px];
+    }
+
+    & > div:last-child {
+      @apply mr-[0px];
+    }
+  }
+
+  .card__map__avatars {
+    @apply m-1 -mt-5 flex;
+
+    & > div {
+      @apply mr-[5px];
+    }
+
+    & > div:last-child {
+      @apply mr-[0px];
+    }
+  }
+}
+
+.CardLandscape :global {
+  @apply flex w-[630px];
+
+  .card__content {
+    @apply flex w-[350px] flex-col justify-between;
+  }
+}
+
+.CardHasAvatar :global {
+  .card__content {
+    @apply text-center;
+  }
+}
+
+.CardHasImageWithAvatar :global {
+  .card__content {
+    @apply mt-[60px];
+  }
+}
+
+.CardSmall :global {
+  @apply h-[74px] w-[300px];
+
+  .card__content {
+    @apply w-[240px] p-[8px];
+  }
+
+  img {
+    @apply h-[74px] w-[72px];
+  }
+
+  h6 {
+    @apply text-[16px] font-[400] leading-[22.4px];
+  }
+
+  p {
+    @apply text-[16px] font-[350] leading-[16px];
+  }
+}
+
+.CardCta {
+  @apply mt-[16px] text-right;
+
+  & > button:last-child {
+    @apply ml-[8px];
+  }
+}
+
+.CardCtaLandcape {
+  @apply mt-[0] text-left;
+
+  button:last-child {
+    @apply ml-[0] pb-[0] pl-[0];
+  }
+}
+
+.CtaAlignmentLeft {
+  @apply mt-[0px] text-left;
+
+  & > button:last-child {
+    @apply ml-[0] pb-[0] pl-[0];
+  }
+}
+
+.CardImage {
+  img {
+    max-width: 100%;
+  }
+}
+
+.CardImageWithAvatar {
+  @apply h-[121px] w-[300px];
+
+  img {
+    @apply h-[121px] w-[300px];
+  }
+}
+
+.CardImageWithPadding {
+  @apply rounded-2xl p-[16px] pb-[0px];
+
+  img {
+    @apply rounded-2xl;
+  }
+}
+
+.CardImageLandscape {
+  @apply h-full w-[250px] px-[14px] py-[16px];
+}
+
+.CardSmallImageLandscape {
+  @apply h-[74px] w-[72px];
+
+  img {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+
+.CardSmallImageLandscapeWithPadding {
+  @apply p-[8px];
+
+  img {
+    @apply h-[56px] w-[56px];
+  }
+}
+
+.MediaContainer :global {
+  @apply relative flex flex-col items-center;
+}
+
+.MediaImageWithAvatar {
+  & > div:last-child {
+    @apply absolute bottom-[-60px];
+  }
+}
+
+.CardMap {
+  @apply h-[121px] overflow-hidden;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.CardMapWithPadding {
+  @apply m-4 h-full w-[260px] overflow-hidden rounded-2xl;
+}

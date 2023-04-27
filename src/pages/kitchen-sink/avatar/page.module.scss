@@ -1,0 +1,10 @@
+.Page :global {
+  // Current Page only styles
+  .row {
+    /* @apply my-[36px] flex flex-row gap-10; */
+    @apply mb-3 grid grid-cols-3;
+  }
+  hr {
+    @apply my-6;
+  }
+}

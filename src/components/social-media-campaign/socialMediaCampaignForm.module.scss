@@ -1,0 +1,40 @@
+.smcForm {
+  ul > li {
+    @apply text-black flex items-center px-4 py-2;
+
+    .requestSummaryContent {
+      @apply ml-2 flex items-center text-base;
+    }
+    span {
+      @apply font-bold flex items-center ml-2 indent-1;
+    }
+  }
+
+  .noteTitle {
+    @apply text-xl flex items-center;
+    
+
+    & > span {
+      @apply bg-[#f6f6f8] mr-[12px] rounded-[50%] p-[8px] flex items-center;
+      font-size: 20px !important;
+    }
+  }
+
+  .noteDescription {
+    @apply text-gray-300 text-base mt-4;
+    font-size: 16px !important;
+  }
+
+  .inviteMembersTitle {
+    @apply font-bold text-black;
+  }
+
+  .inviteMembersField {
+    @apply flex items-center;
+  }
+
+  .share {
+    @apply text-base text-black flex items-center mt-2;
+    font-size: 16px !important;;
+  }
+}

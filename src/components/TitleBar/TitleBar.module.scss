@@ -1,0 +1,13 @@
+.TitleBar :global {
+  @apply my-[30px] bg-black p-[30px];
+  *,
+  a {
+    @apply text-white;
+  }
+  h3 {
+    @apply mb-[10px];
+  }
+  p {
+    @apply font-light opacity-60;
+  }
+}

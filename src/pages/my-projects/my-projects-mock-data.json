@@ -1,0 +1,394 @@
+{
+  "columns": [
+    {
+      "label": "PROJECT",
+      "field": "project",
+      "hasCheckbox": true
+    },
+    {
+      "label": "PM",
+      "field": "pm",
+      "alignment": "center"
+    },
+    {
+      "label": "CLIENT",
+      "field": "client",
+      "alignment": "center"
+    },
+    {
+      "label": "PRIORITY",
+      "field": "priority",
+      "alignment": "center"
+    },
+    {
+      "label": "PROGRESS",
+      "field": "progress",
+      "alignment": "center"
+    },
+    {
+      "label": "DUE DATE",
+      "field": "dueDate",
+      "alignment": "center"
+    },
+    {
+      "label": "EST. HOURS",
+      "field": "estimatedHours",
+      "alignment": "center"
+    }
+  ],
+  "data": [
+    {
+      "project": "Easter 2022 Social Assets",
+      "pm": [
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "MPower",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Easter 2022 Social Assets",
+      "pm": [
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "MPower",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Heal the World Revamp",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        }
+      ],
+      "count": "6",
+      "client": "Eco-solutions Org",
+      "priority": "1",
+      "progress": "Complete",
+      "dueDate": "Feb 27",
+      "estimatedHours": "20h"
+    },
+    {
+      "project": "Landing Page Redesign",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        },
+        {
+          "name": "Sofia Jackson",
+          "src": "/images/mock/profile2.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "Union For Reform",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Integrate Tag Manager",
+      "pm": [
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "MPower Financing",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Convert Figma to HTML",
+      "pm": [
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "Navicore Solutions",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "10-slide Presentation Deck Design",
+      "pm": [
+        {
+          "name": "Sofia Jackson",
+          "src": "/images/mock/profile2.png"
+        }
+      ],
+      "count": "1",
+      "client": "CGI Recruitment",
+      "priority": "1",
+      "progress": "For Review",
+      "dueDate": "May 19",
+      "estimatedHours": "8h"
+    },
+    {
+      "project": "Presentation for Design Partner",
+      "pm": [
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "Navicore Solutions",
+      "priority": "1",
+      "progress": "For Review",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Launch Purpose Style",
+      "pm": [
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "2",
+      "client": "MPower",
+      "priority": "1",
+      "progress": "Complete",
+      "dueDate": "Mar 14",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Add Subscription Page",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "1",
+      "client": "Jaguar Electronics",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "April 1",
+      "estimatedHours": "25h"
+    },
+    {
+      "project": "Upgrade Plugin Version",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        }
+      ],
+      "count": "1",
+      "client": "Webflix",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "April 15",
+      "estimatedHours": "9h"
+    },
+    {
+      "project": "Revamp Landing Page",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        },
+        {
+          "name": "Helen Shelby",
+          "src": "/images/mock/profile6.png"
+        }
+      ],
+      "count": "2",
+      "client": "Jaguar Electronics",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "April 9",
+      "estimatedHours": "30h"
+    },
+    {
+      "project": "Waltermart Web App",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        },
+        {
+          "name": "Helen Shelby",
+          "src": "/images/mock/profile6.png"
+        },
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        }
+      ],
+      "count": "16",
+      "client": "Waltermart",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "June 5",
+      "estimatedHours": "100h"
+    },
+    {
+      "project": "CGI Landing Page Enhancement",
+      "pm": [
+        {
+          "name": "Sofia Jackson",
+          "src": "/images/mock/profile2.png"
+        }
+      ],
+      "count": "1",
+      "client": "CGI Recruitment",
+      "priority": "1",
+      "progress": "For Review",
+      "dueDate": "May 3",
+      "estimatedHours": "12h"
+    },
+    {
+      "project": "Stripe Access",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        }
+      ],
+      "count": "1",
+      "client": "BR Global",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "May 6",
+      "estimatedHours": "1h"
+    },
+    {
+      "project": "Security Plugin Update",
+      "pm": [
+        {
+          "name": "Ana Smith",
+          "src": "/images/mock/profile1.png"
+        }
+      ],
+      "count": "4",
+      "client": "Webflix",
+      "priority": "1",
+      "progress": "In Progress",
+      "dueDate": "April 15",
+      "estimatedHours": "9h"
+    },
+    {
+      "project": "Robinsons Web App",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        },
+        {
+          "name": "Helen Shelby",
+          "src": "/images/mock/profile6.png"
+        },
+        {
+          "name": "Michael Potter",
+          "src": "/images/mock/profile4.png"
+        }
+      ],
+      "count": "21",
+      "client": "Robinsons",
+      "priority": "1",
+      "progress": "For Review",
+      "dueDate": "Oct 8",
+      "estimatedHours": "300h"
+    },
+    {
+      "project": "Menu Layout",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        },
+        {
+          "name": "John Doe",
+          "src": "/images/mock/profile3.png"
+        }
+      ],
+      "count": "1",
+      "client": "Angel Burger Chain",
+      "priority": "1",
+      "progress": "Complete",
+      "dueDate": "Mar 11",
+      "estimatedHours": "15h"
+    },
+    {
+      "project": "Design Review",
+      "pm": [
+        {
+          "name": "Olivia Alvarez",
+          "src": "/images/mock/profile5.png"
+        }
+      ],
+      "count": "1",
+      "client": "PTE LTD LLC",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "July 5",
+      "estimatedHours": "15h"
+    },
+    {
+      "project": "Web App Rework",
+      "pm": [
+        {
+          "name": "Helen Shelby",
+          "src": "/images/mock/profile6.png"
+        }
+      ],
+      "count": "1",
+      "client": "PTE LTD LLC",
+      "priority": "1",
+      "progress": "Pending",
+      "dueDate": "June 29",
+      "estimatedHours": "21h"
+    }
+  ],
+  "rowActions": [
+    {
+      "label": "Action"
+    }
+  ]
+}

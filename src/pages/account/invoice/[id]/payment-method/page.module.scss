@@ -1,0 +1,29 @@
+.Page {
+  .header {
+    @apply mt-[40px] mb-[25px] flex justify-between;
+
+    h6 {
+      @apply my-auto cursor-pointer text-lg font-light;
+    }
+
+    span {
+      @apply my-auto text-base font-normal text-blue-700;
+    }
+
+    button:first-child {
+      @apply pl-[0px] text-blue-700;
+
+      &:hover {
+        @apply bg-transparent  hover:text-gray-darkest;
+      }
+
+      svg {
+        @apply mt-1;
+      }
+    }
+  }
+
+  .form {
+    @apply flex justify-center;
+  }
+}

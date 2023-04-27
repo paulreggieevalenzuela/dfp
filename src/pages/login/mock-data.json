@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "hubspot",
+      "avatars": [
+        "/images/mock/login/hubspot/avatar-1.png",
+        "/images/mock/login/hubspot/avatar-2.png",
+        "/images/mock/login/hubspot/avatar-3.png",
+        "/images/mock/login/hubspot/avatar-4.png",
+        "/images/mock/login/hubspot/avatar-5.png",
+        "/images/mock/login/hubspot/avatar-6.png"
+      ],
+      "review": {
+        "heading": "Extremely effective and simple process.",
+        "content": "They always make sure we communicate to review priorities for the week and go over any new product specs.",
+        "reviewer": "Charlene Strain, Marketing Manager"
+      }
+    },
+    {
+      "name": "tiktok",
+      "avatars": [
+        "/images/mock/login/tiktok/avatar-1.png",
+        "/images/mock/login/tiktok/avatar-2.png",
+        "/images/mock/login/tiktok/avatar-3.png",
+        "/images/mock/login/tiktok/avatar-4.png",
+        "/images/mock/login/tiktok/avatar-5.png",
+        "/images/mock/login/tiktok/avatar-6.png"
+      ],
+      "review": {
+        "heading": "The team always understands the assignment!",
+        "content": "Having Design Force on my side makes my job so much easier! And Sophie, our Design Manager is great! Very responsive, efficient, and completely reliable.",
+        "reviewer": "Jen Carter, Marketing Manager"
+      }
+    },
+    {
+      "name": "ufc",
+      "avatars": [
+        "/images/mock/login/ufc/avatar-1.png",
+        "/images/mock/login/ufc/avatar-2.png",
+        "/images/mock/login/ufc/avatar-3.png",
+        "/images/mock/login/ufc/avatar-4.png",
+        "/images/mock/login/ufc/avatar-5.png",
+        "/images/mock/login/ufc/avatar-6.png"
+      ],
+      "review": {
+        "heading": "Fast delivery time and high quality",
+        "content": "The advantages of having a full-time designer in-house while only working part-time. Their fast delivery and quality inspire confidence in their work.",
+        "reviewer": "Jane Doe, Marketing Manager"
+      }
+    }
+  ]
+}

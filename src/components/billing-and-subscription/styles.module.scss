@@ -1,0 +1,250 @@
+.BillingDetailsContainer {
+  @apply mb-8 w-[100%];
+
+  .billingHeader {
+    @apply mt-3 mb-4 flex flex-row justify-between;
+
+    h6 {
+      @apply my-auto text-lg font-medium;
+    }
+
+    a {
+      @apply my-auto text-base font-normal text-blue-700;
+    }
+
+    button a {
+      @apply text-blue-700;
+    }
+  }
+
+  .displayDetails {
+    @apply text-base;
+
+    .header {
+      @apply mb-3 block text-sm text-gray-400;
+    }
+
+    .contactContainer {
+      @apply grid w-[60px] grid-cols-2;
+    }
+  }
+}
+
+.EditDetailsContainer {
+  @apply mt-3 w-[450px] mx-auto xl:w-[1000px];
+
+  .actions {
+    @apply mb-4 flex flex-row justify-between;
+
+    h6 {
+      @apply my-auto text-lg font-medium;
+    }
+
+    a {
+      @apply m-3 inline-block text-base font-normal;
+      color: rgba(17, 17, 17, 0.6);
+    }
+  }
+
+  span {
+    @apply mb-3 block text-sm font-normal text-gray-400;
+  }
+
+  div.twoColField {
+    @apply mb-3 flex flex-col xl:flex-row 2xl:flex-row justify-between gap-4;
+  }
+
+  section {
+    @apply mb-8;
+  }
+
+  input {
+    @apply bg-white;
+  }
+}
+
+.SubscriptionPlanWrapper {
+  @apply flex w-full max-w-[1000px] items-start justify-between;
+
+  & > article {
+    &:first-child {
+      @apply mr-[40px] flex-1;
+    }
+
+    &:last-child {
+      @apply w-[210px];
+    }
+  }
+
+  .subscriptionPlanHeader {
+    @apply flex h-[46px] items-center justify-between mb-[10px];
+  }
+
+  .subscriptionPlanCta {
+    button {
+      @apply bg-transparent;
+
+      &:first-child {
+        @apply text-gray-700;
+
+        &:after {
+          @apply absolute right-0 h-[22px] w-[1px] bg-gray-300;
+          content: '';
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+          @apply text-blue-700;
+        }
+      }
+
+      &:last-child {
+        @apply pr-[0];
+      }
+    }
+
+    a {
+      @apply text-blue-700;
+
+      &:hover,
+      &:focus {
+        @apply text-black;
+      }
+    }
+  }
+
+  .subscriptionPlan {
+    @apply p-[24px];
+  }
+
+  .subscriptionType {
+    @apply mb-[30px] flex justify-between;
+  }
+
+  .subscriptionPlanBadge {
+    @apply w-[60px] justify-center font-medium;
+  }
+
+  .hoursTitle {
+    @apply mb-[16px] text-sm text-gray-400;
+  }
+
+  .subscritionHours {
+    @apply mb-[20px] flex;
+
+    span {
+      @apply text-sm text-gray-400;
+    }
+  }
+
+  .subscriptionPaymentDetails {
+    @apply mt-[25px] flex justify-between;
+
+    & > div {
+      flex: 1;
+    }
+
+    label {
+      @apply text-sm text-gray-400;
+    }
+
+    p {
+      @apply mt-[10px] text-base font-medium text-black;
+    }
+
+    span {
+      @apply text-sm text-gray-400;
+    }
+  }
+
+  .subscriptionInformation {
+    @apply mt-[30px];
+  }
+
+  .planDetails {
+    @apply mt-[24px];
+
+    li {
+      @apply mb-[12px] text-sm font-[400] text-gray-600;
+
+      *:last-child {
+        @apply mb-[0px];
+      }
+    }
+  }
+
+  .subscriptionDivider {
+    @apply my-[20px] h-[1px] opacity-[0.2];
+  }
+
+  .planInformation {
+    @apply flex flex-wrap;
+
+    li {
+      @apply mt-[10px] flex w-[50%];
+
+      p {
+        @apply ml-[10px] w-[160px] text-sm text-black;
+      }
+
+      *:last-child {
+        @apply mb-[0px];
+      }
+    }
+  }
+
+  .hideCapabilities {
+    @apply mt-[24px] flex flex-col items-center;
+
+    button:first-child {
+      @apply mb-[40px] text-gray-400;
+
+      &:hover,
+      &:visited,
+      &:active,
+      &:focus {
+        @apply bg-transparent;
+      }
+    }
+  }
+}
+
+.CreditCardWrapper {
+  @apply flex flex-col justify-between rounded-[8px] border border-solid border-blue-700 p-[24px];
+  box-shadow: none !important;
+
+  .creditCard {
+    @apply mb-[15px] flex items-center justify-between;
+
+    & > div {
+      border-radius: 0;
+    }
+  }
+
+  .ellipsis {
+    @apply h-[20px] w-[20px];
+  }
+}
+
+.InvoicesContainer {
+  @apply w-[100%];
+
+  h6 {
+    @apply my-auto -ml-[16px] text-lg font-medium text-gray-darkest;
+  }
+
+  .customHeader {
+    @apply text-gray-400;
+    background-color: transparent !important;
+
+    p {
+      @apply text-xs;
+      font-weight: 500 !important;
+    }
+  }
+
+  tbody {
+    background-color: white !important;
+  }
+}

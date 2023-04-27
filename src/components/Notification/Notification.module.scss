@@ -1,0 +1,49 @@
+.Notification {
+  @apply relative flex min-h-[90px] min-w-[450px] border-b-[1px] border-solid border-[#000000]/[0.08] py-3;
+
+  &:hover {
+    @apply cursor-pointer bg-blue-50;
+  }
+
+  :global {
+    .avatar {
+      @apply px-[16px];
+    }
+
+    .heading {
+      @apply text-gray-darkest;
+
+      .action {
+        @apply text-[18px] font-light;
+      }
+    }
+
+    .date-time {
+      @apply mt-1 mb-3 text-[12px] text-gray-darkest/[.6];
+    }
+
+    .content {
+      @apply flex flex-auto flex-col;
+
+      .heading {
+        @apply text-gray-darkest;
+
+        .action {
+          @apply text-[18px] font-light;
+        }
+      }
+
+      .date-time {
+        @apply mb-3 text-[12px] text-gray-darkest/[.6];
+      }
+
+      .message {
+        @apply text-gray-darkest/[.6];
+      }
+    }
+
+    .unread-marker {
+      @apply absolute right-5 top-4 h-[10px] w-[10px] rounded-full bg-blue-700;
+    }
+  }
+}

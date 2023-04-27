@@ -1,0 +1,30 @@
+.TopNav :global {
+  @apply container mx-auto flex h-14 flex-row items-center bg-white shadow-00;
+
+  svg {
+    @apply h-7 w-7;
+  }
+}
+
+.navStyle {
+  @apply invisible m-auto mr-5 inline-block h-14 cursor-pointer py-4 text-base font-normal text-gray-300 hover:border-b-2 hover:border-solid hover:border-blue-700 hover:text-gray-darkest sm:visible;
+}
+
+.navLogo {
+  @apply mx-4 p-4;
+}
+
+.navAvatar {
+  @apply invisible ml-auto mr-6 sm:visible;
+}
+
+@media (max-width: 768px) {
+  /* to change once we have responsive designs available */
+  .navStyle {
+    @apply invisible;
+  }
+
+  .navAvatar {
+    @apply invisible;
+  }
+}

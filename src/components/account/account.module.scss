@@ -1,0 +1,25 @@
+.AccountHeader {
+  .container {
+    @apply fixed top-0 right-0 left-[68px] z-10 h-[95px] bg-white;
+  }
+
+  .header {
+    @apply inline-block flex h-[50px] w-full justify-between border-b-[1px] border-solid border-gray-100 px-6 pt-2;
+
+    span {
+      @apply text-2xl font-medium;
+    }
+  }
+
+  .tabContainer {
+    @apply flex h-[45px] flex-row border-b-[1px] border-solid border-gray-100 pl-4;
+  }
+
+  a {
+    @apply text-inherit;
+  }
+}
+
+.AccountTabContent {
+  @apply mt-20 flex w-full flex-col justify-center gap-1 lg:max-w-[1074px];
+}

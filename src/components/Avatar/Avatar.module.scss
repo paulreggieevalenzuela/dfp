@@ -1,0 +1,35 @@
+.Avatar :global {
+  @apply relative overflow-visible rounded-full;
+  @apply flex items-center justify-center;
+  img {
+    @apply rounded-full object-center;
+  }
+}
+
+.initials {
+  @apply bg-maroon-100 font-medium text-maroon;
+}
+
+.icon {
+  @apply bg-blue-100 text-black;
+}
+
+.hasStatus:global {
+  &:after {
+    content: '';
+    border: 2px solid white;
+    @apply absolute h-3 w-3 rounded-full bg-green;
+    bottom: -3px;
+    right: -3px;
+  }
+}
+
+.count {
+  @apply absolute grid h-5 w-5 place-items-center rounded-full bg-blue text-xs text-white;
+  top: -8px;
+  right: -8px;
+  span {
+    line-height: 20px;
+    margin-top: -2px;
+  }
+}

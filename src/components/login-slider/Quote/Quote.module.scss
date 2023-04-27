@@ -1,0 +1,35 @@
+.Quote :global {
+  @apply flex flex-col gap-3;
+  *,
+  a {
+    @apply text-neutral-300;
+  }
+  h3 {
+    @apply mb-[10px] text-white;
+  }
+  p {
+    @apply font-light;
+  }
+
+  .brand {
+    @apply flex flex-row items-center gap-3 text-lg mb-2;
+    svg {
+      @apply inline-block;
+      width: 84px;
+      height: 24px;
+    }
+
+    span {
+      @apply text-lg;
+    }
+  }
+  h3 {
+    @apply mb-0 text-2xl font-[500];
+  }
+  .author {
+    @apply text-white;
+  }
+  p {
+    line-height: 1.3;
+  }
+}

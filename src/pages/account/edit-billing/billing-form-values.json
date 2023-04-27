@@ -1,0 +1,13 @@
+{
+  "values": {
+    "firstName": "Terry",
+    "lastName": "Jones",
+    "toRecipient": "terry@billing.com",
+    "ccRecipient": ["jenny@playsolutions.com", "collin@playsolutions.com"],
+    "address1": "3891 Ranchview Dr. Richardson",
+    "address2": "terry@billing.com",
+    "city": "Irvine",
+    "state": "California",
+    "zip": 62639
+  }
+}

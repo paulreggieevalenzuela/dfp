@@ -1,0 +1,41 @@
+.DropdownInput {
+  @apply relative w-full;
+
+  > div:first-child {
+    @apply z-0 w-full;
+
+    input {
+      @apply w-full text-gray-darkest;
+    }
+
+    .caret {
+      @apply cursor-pointer;
+    }
+  }
+
+  .Dropdown {
+    @apply absolute top-full z-10 mt-1 w-full rounded-lg bg-white py-2 text-gray-darkest  shadow-02;
+
+    ul,
+    li {
+      @apply w-full;
+    }
+
+    a {
+      > div {
+        @apply ml-0 flex items-center;
+
+        svg {
+          @apply mr-3;
+        }
+
+        .label {
+        }
+
+        .subText {
+          @apply ml-1 text-gray-darkest/[.60];
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.Page :global {
+  // Current Page only styles
+  .row {
+    @apply my-[36px] flex flex-row gap-10;
+  }
+  .col:first-child {
+    @apply w-full;
+  }
+  .items {
+    @apply flex flex-col gap-[24px] md:flex-row;
+    > div {
+      @apply relative h-full w-full overflow-hidden rounded-[18px];
+      @apply aspect-square max-w-[280px];
+    }
+  }
+}

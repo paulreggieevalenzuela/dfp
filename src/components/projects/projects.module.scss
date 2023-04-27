@@ -1,0 +1,17 @@
+.ProjectHeader {
+  .container {
+    @apply fixed top-0 right-0 left-[68px] z-20 h-[95px] bg-white;
+  }
+
+  .header {
+    @apply inline-block h-[50px] w-full border-b-[1px] border-solid border-gray-100 pl-6 pt-2;
+  }
+
+  .tabContainer {
+    @apply flex h-[45px] flex-row border-b-[1px] border-solid border-gray-100 pl-4;
+  }
+
+  a {
+    @apply text-inherit;
+  }
+}

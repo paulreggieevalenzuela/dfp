@@ -1,0 +1,28 @@
+{
+  "styles": [
+    {
+      "link": "/kitchen-sink/typography",
+      "label": "Typography"
+    },
+    {
+      "link": "/kitchen-sink/colors",
+      "label": "Colors"
+    },
+    {
+      "link": "/kitchen-sink/gradients",
+      "label": "Gradients"
+    },
+    {
+      "link": "/kitchen-sink/product-colors",
+      "label": "Product Colors"
+    },
+    {
+      "link": "/kitchen-sink/images",
+      "label": "Images"
+    },
+    {
+      "link": "/kitchen-sink/elevations",
+      "label": "Elevations"
+    }
+  ]
+}

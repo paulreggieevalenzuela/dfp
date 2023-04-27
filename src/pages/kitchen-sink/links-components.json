@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "link": "/kitchen-sink/alert-bar",
+      "label": "Alert Bar"
+    },
+    {
+      "link": "/kitchen-sink/avatar",
+      "label": "Avatar"
+    },
+    {
+      "link": "/kitchen-sink/badge",
+      "label": "Badge"
+    },
+    {
+      "link": "/kitchen-sink/button",
+      "label": "Button"
+    },
+    {
+      "link": "/kitchen-sink/button-groups",
+      "label": "Button Group Set"
+    },
+    {
+      "link": "/kitchen-sink/card",
+      "label": "Card"
+    },
+    {
+      "link": "/kitchen-sink/chip",
+      "label": "Chip"
+    },
+    {
+      "link": "/kitchen-sink/counter",
+      "label": "Counter"
+    },
+    {
+      "link": "/kitchen-sink/datepicker",
+      "label": "Datepicker"
+    },
+    {
+      "link": "/kitchen-sink/file",
+      "label": "File (Dropzone)"
+    },
+    {
+      "link": "/kitchen-sink/feed",
+      "label": "Feed"
+    },
+    {
+      "link": "/kitchen-sink/graphs",
+      "label": "Graph"
+    },
+    {
+      "link": "/kitchen-sink/media",
+      "label": "Media Carousel/Video"
+    },
+    {
+      "link": "/kitchen-sink/nav-dropdown",
+      "label": "Menu"
+    },
+    {
+      "link": "/kitchen-sink/nav-pop-ups",
+      "label": "Menu (2nd Level)"
+    },
+    {
+      "link": "/kitchen-sink/multi-email-input",
+      "label": "Multi-email"
+    },
+    {
+      "link": "/kitchen-sink/modal",
+      "label": "Modal"
+    },
+    {
+      "link": "/kitchen-sink/modal-global",
+      "label": "Modal (Global)"
+    },
+    {
+      "link": "/kitchen-sink/notification",
+      "label": "Notification"
+    },
+    {
+      "link": "/kitchen-sink/input",
+      "label": "Input (Helpers)"
+    },
+    {
+      "link": "/kitchen-sink/input-dropdown",
+      "label": "Input (Dropdown)"
+    },
+    {
+      "link": "/kitchen-sink/input-variants",
+      "label": "Input (Variants)"
+    },
+    {
+      "link": "/kitchen-sink/pagination",
+      "label": "Pagination"
+    },
+    {
+      "link": "/kitchen-sink/progress-bar",
+      "label": "Progress Bar"
+    },
+    {
+      "link": "/kitchen-sink/selection",
+      "label": "Selection"
+    },
+    {
+      "link": "/kitchen-sink/sliders",
+      "label": "Sliders"
+    },
+    {
+      "link": "/kitchen-sink/snackbar",
+      "label": "Snackbar"
+    },
+    {
+      "link": "/kitchen-sink/side-nav",
+      "label": "Side Nav"
+    },
+    {
+      "link": "/kitchen-sink/table",
+      "label": "Table"
+    },
+    {
+      "link": "/kitchen-sink/tabs",
+      "label": "Tabs"
+    },
+    {
+      "link": "/kitchen-sink/text-editor",
+      "label": "Text Editor"
+    },
+    {
+      "link": "/kitchen-sink/tooltip",
+      "label": "Tooltip"
+    },
+    {
+      "link": "/kitchen-sink/top-nav",
+      "label": "Top Nav"
+    },
+    {
+      "link": "/kitchen-sink/single-file-uploader",
+      "label": "Upload"
+    }
+  ]
+}

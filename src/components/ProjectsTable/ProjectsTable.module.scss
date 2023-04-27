@@ -1,0 +1,52 @@
+.ProjectsTable {
+  @apply flex flex-col w-max; 
+  .customHeader {
+    @apply text-gray-400;
+    background-color: transparent !important;
+
+    p {
+      @apply text-xs;
+      font-weight: 500 !important;
+    }
+  }
+
+  tbody {
+    background-color: white !important;
+  }
+}
+
+.rowText {
+  @apply break-all text-gray-400;
+}
+
+.projectDiv {
+  @apply flex w-[450px] flex-row justify-between;
+}
+
+.SearchBar {
+  @apply flex flex-row gap-5;
+
+  .searchInput {
+    @apply -mt-7;
+
+    input {
+      @apply outline outline-1 outline-gray-400;
+    }
+
+    svg {
+      @apply text-gray-400;
+    }
+  }
+}
+
+.menuStyle {
+  width: 200px !important;
+}
+
+.FilterBar {
+  @apply absolute py-2 z-10;
+}
+
+.SortBar {
+  @apply absolute py-2 z-10;
+}

@@ -1,0 +1,14 @@
+.NotificationMenu {
+  @apply absolute bg-white;
+
+  :global {
+    .title {
+      @apply border-b-[1px] border-solid border-[#000000]/[0.08] py-3 pl-[16px] text-gray-darkest;
+    }
+  }
+
+  &.NotificationMenu {
+    @apply rounded-[4px];
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);
+  }
+}

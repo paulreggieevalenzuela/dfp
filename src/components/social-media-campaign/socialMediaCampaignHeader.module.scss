@@ -1,0 +1,54 @@
+.Header {
+  @apply mr-3 flex justify-between;
+
+  span.title {
+    @apply my-auto ml-3 text-[22px] font-medium;
+  }
+
+  .navBack {
+    @apply pr-3;
+  }
+
+  .ellipsis {
+    @apply m-auto ml-3 cursor-pointer;
+    svg {
+      @apply flex text-neutral-400;
+    }
+  }
+
+  .status {
+    @apply my-auto flex gap-3;
+
+    svg {
+      @apply text-neutral-300;
+    }
+  }
+
+  .tracker {
+    @apply flex flex-col px-2;
+
+    div:first-child {
+      @apply mb-1 text-xs font-medium text-gray-400;
+    }
+
+    div:nth-child(2) {
+      @apply my-auto flex text-xs font-medium text-gray-darkest;
+
+      svg {
+        @apply text-neutral-300;
+      }
+    }
+  }
+
+  .close {
+    @apply cursor-pointer;
+    svg {
+      @apply text-[#999999];
+    }
+  }
+}
+
+.divider {
+  @apply my-auto flex h-[35px];
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}

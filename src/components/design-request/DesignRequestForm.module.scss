@@ -1,0 +1,111 @@
+.DesignRequestForm :global {
+  @apply block;
+
+  input {
+    @apply h-[48px];
+  }
+
+  p {
+    @apply text-black opacity-100;
+  }
+
+  .crfUpload {
+    button {
+      @apply pl-[0px] text-blue-700;
+
+      &:hover,
+      &:active,
+      &:focus {
+        @apply bg-transparent hover:text-gray-darkest;
+      }
+
+      svg {
+        @apply mt-1;
+      }
+    }
+  }
+
+  .crfFormField {
+    @apply mt-8 flex justify-between;
+
+    button {
+      @apply mt-6;
+    }
+  }
+  
+  .crfFormFieldContainer {
+    @apply flex items-start mr-4;
+
+    & > div {
+      @apply mr-4;
+
+      &:last-child {
+        @apply mr-0;
+      }
+    }
+  }
+  
+  .actions {
+    @apply flex justify-end gap-5 pt-5;
+    .cds--btn--tertiary {
+      @apply border border-solid border-black text-black;
+    }
+    button {
+      &:hover {
+        @apply bg-black text-white;
+      }
+    }
+  }
+
+  .deliverables {
+    button {
+      @apply mr-2;
+      
+    }
+    button:last-child {
+      @apply mr-0;
+    }
+  }
+
+  .brand-assets {
+    &--no-selection {
+      @apply text-red mt-2;
+    }
+
+    input {
+      @apply h-[25px];
+    }
+
+    li {
+      @apply flex items-center;
+    }
+
+    p {
+      @apply text-[18px] text-black font-[350] ml-2;
+    }
+  }
+
+  .referencesItems {
+    @apply mt-5;
+
+    li {
+      @apply flex justify-between items-center py-2;
+    }
+    
+    p {
+      @apply text-base text-black flex items-center indent-2;
+    }
+
+    a {
+      @apply text-base text-blue-700;
+    }
+
+    .referenceLinkLabel {
+      @apply flex items-center;
+
+      svg {
+        @apply ml-16 cursor-pointer;
+      }
+    }
+  }
+}

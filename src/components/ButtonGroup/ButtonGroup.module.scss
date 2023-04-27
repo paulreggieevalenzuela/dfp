@@ -1,0 +1,38 @@
+@mixin button-styles {
+  @apply min-w-[90px] rounded-none border-y-[1px] border-x-0 border-solid border-[#000000]/[.12] bg-white px-[20px] py-[10px] text-gray-darkest;
+
+  &:hover {
+    @apply border-blue-700 text-white;
+  }
+
+  &:active:not(:hover):not(:disabled),
+  &.selected:not(:hover):not(:disabled) {
+    @apply border-gray-darkest bg-gray-darkest text-white;
+  }
+}
+
+.ButtonGroup {
+  @apply flex;
+
+  &:global {
+    > button {
+      &:first-child {
+        @include button-styles;
+        @apply rounded-l-[8px] border-l-[1px];
+      }
+
+      &:not(:first-child):not(:last-child) {
+        @include button-styles;
+      }
+
+      &:last-child {
+        @include button-styles;
+        @apply rounded-r-[8px] border-r-[1px];
+      }
+    }
+
+    > div {
+      @apply border-0 border-l-[1px] border-solid border-[#000000]/[.12];
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.ComponentContainer {
+  @apply flex w-[380px] items-end;
+}
+
+.DonutContainer {
+  @apply w-[200px];
+}
+
+.legendContainer {
+  @apply ml-[14px] mb-[10px];
+
+  li {
+    @apply mb-[6px] flex items-center text-xs;
+
+    &:last-child {
+      @apply mb-[0px];
+    }
+  }
+
+  span {
+    @apply mr-[8px] h-[12px] w-[12px] rounded-[2px];
+  }
+}

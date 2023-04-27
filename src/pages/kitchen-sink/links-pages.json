@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "link": "/login",
+      "label": "Client Login"
+    },
+    {
+      "link": "/sign-up",
+      "label": "Client User Sign-up"
+    },
+    {
+      "link": "/account",
+      "label": "Account"
+    },
+    {
+      "link": "/account/company-profile",
+      "label": "Account / Company Profile"
+    },
+    {
+      "link": "/account/billing-and-subscription",
+      "label": "Account / Biling and Subscription"
+    },
+    {
+      "link": "/account/edit-billing",
+      "label": "Account / Edit Billing"
+    },
+    {
+      "link": "/account/plans",
+      "label": "Account / Plans"
+    },
+    {
+      "link": "/account/invoice/0001/payment-method",
+      "label": "Account / Payment Method"
+    },
+    {
+      "link": "/account/invoice/0001/pay-with-card",
+      "label": "Account / Pay with Card"
+    },
+    {
+      "link": "/kitchen-sink/test",
+      "label": "Test Page"
+    },
+    {
+      "link": "/my-projects",
+      "label": "Projects / My Projects"
+    },
+    {
+      "link": "/social-media-campaign",
+      "label": "Social Media Campaign"
+    }
+  ]
+}

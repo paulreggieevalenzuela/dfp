@@ -1,0 +1,46 @@
+@import './mixins/_button.scss';
+
+.Button {
+  &:global {
+    &.cds--btn {
+      $this: &;
+      @apply h-[46px] max-h-[46px] min-h-[46px] justify-center border-none px-[24px] py-[12px] text-base text-white shadow-none;
+      span,
+      a {
+        @apply flex items-center;
+      }
+
+      &--primary {
+        @include button(primary);
+        > a {
+          @apply text-white;
+        }
+      }
+
+      &--outline {
+        > a {
+          @apply text-black no-underline;
+        }
+        &:hover {
+          a {
+            @apply text-white;
+          }
+        }
+      }
+
+      &--danger {
+        @include button(danger);
+        > a {
+          @apply text-white;
+        }
+      }
+      &--sm {
+        @apply h-[33px] min-h-[33px] px-[14px] py-[5px] text-[14px];
+      }
+
+      &--fixed-size {
+        @apply w-[150px] min-w-[150px] max-w-[150px];
+      }
+    }
+  }
+}

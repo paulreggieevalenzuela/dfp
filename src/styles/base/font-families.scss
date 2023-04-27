@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src: url('/fonts/NeueHaasUnicaPro-Bold.woff2') format('woff2'),
+    url('/fonts/NeueHaasUnicaPro-Bold.woff') format('woff'),
+    url('/fonts/NeueHaasUnicaPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src: url('/fonts/NeueHaasUnicaPro-Medium.woff2') format('woff2'),
+    url('/fonts/NeueHaasUnicaPro-Medium.woff') format('woff'),
+    url('/fonts/NeueHaasUnicaPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src: url('/fonts/NeueHaasUnicaPro-Light.woff2') format('woff2'),
+    url('/fonts/NeueHaasUnicaPro-Light.woff') format('woff'),
+    url('/fonts/NeueHaasUnicaPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica Pro';
+  src: url('/fonts/NeueHaasUnicaPro-Regular.woff2') format('woff2'),
+    url('/fonts/NeueHaasUnicaPro-Regular.woff') format('woff'),
+    url('/fonts/NeueHaasUnicaPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightText Pro';
+  src: url('/fonts/FreightTextProBook-Regular.woff2') format('woff2'),
+    url('/fonts/FreightTextProBook-Regular.woff') format('woff'),
+    url('/fonts/FreightTextProBook-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: 3px;
+}

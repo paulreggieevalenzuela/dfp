@@ -1,0 +1,108 @@
+.Pagination {
+  @apply flex items-center text-gray-darkest/[.6];
+
+  > * {
+    @apply flex-auto basis-1/2;
+  }
+
+  &:global {
+    &.pagination--button-type {
+      .pagination--page-selector {
+        @apply text-right;
+
+        > button {
+          &,
+          &:focus {
+            @apply h-8 min-h-[32px] w-8 rounded-[1px] bg-inherit p-4 text-gray-darkest;
+          }
+
+          &:not(:last-child) {
+            @apply mr-2;
+          }
+
+          &:hover,
+          &:focus:hover {
+            @apply bg-blue-700 text-white;
+          }
+
+          &:active:not(:hover):not(:disabled),
+          &.selected:not(:hover):not(:disabled) {
+            @apply bg-gray-darkest text-white;
+          }
+        }
+      }
+
+      .pagination--description {
+        @apply text-[14px];
+      }
+    }
+
+    &.pagination--icon-type {
+      @apply text-[14px];
+
+      &.pagination--icon-type {
+        .pagination--num-selector {
+          @apply relative flex items-center;
+
+          .dropdown {
+            @apply relative;
+
+            &-icon {
+              @apply ml-1  w-[10px] cursor-pointer border-none bg-transparent px-0;
+
+              & > svg {
+                transform: scale(0.65) translateX(-5px);
+              }
+            }
+
+            &-items {
+              @apply absolute top-[20px] right-0 rounded-md;
+
+              li {
+                @apply py-2 px-[14px];
+
+                &:hover {
+                  @apply cursor-pointer bg-blue-700 text-white;
+                }
+
+                &:not(:last-child) {
+                  @apply border-b-[1px] border-solid border-[#000000]/[0.08];
+                }
+              }
+            }
+          }
+        }
+
+        .pagination--description {
+          @apply flex items-center justify-end text-right;
+
+          .pagination--page-nav {
+            @apply ml-11 flex justify-end;
+
+            button {
+              &,
+              &:focus {
+                @apply h-4 min-h-[16px] w-4 bg-transparent p-0 text-gray-darkest;
+              }
+
+              &:not(:disabled) {
+                &:hover,
+                &:hover:focus {
+                  @apply bg-transparent text-blue-700;
+                }
+              }
+
+              &:disabled {
+                @apply text-gray-darkest/[.38];
+              }
+
+              &:last-child {
+                @apply ml-7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

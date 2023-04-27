@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "isFixed": true,
+    "topPages": [
+      {
+        "id": "my-tasks",
+        "label": "My tasks",
+        "icon": "checked"
+      },
+      {
+        "id": "projects",
+        "label": "Projects",
+        "link": "/my-projects",
+        "icon": "folder"
+      },
+      {
+        "id": "notifications",
+        "label": "Notifications",
+        "icon": "notification",
+        "counter": 2
+      }
+    ],
+    "bottomPages": [
+      {
+        "id": "search",
+        "label": "Search",
+        "icon": "search"
+      },
+      {
+        "id": "help",
+        "label": "Help",
+        "icon": "help"
+      }
+    ],
+    "designRequestEnabled": true,
+    "companyName": "Client Brand",
+    "companyLogo": "/images/mock/company-logo.png",
+    "companyUrl": "/account",
+    "isCollapsed": true,
+    "canToggle": true,
+    "firstName": "Jenny",
+    "lastName": "Wilson",
+    "navPopUp": [
+      {
+        "label": "Account Settings",
+        "icon": "settings",
+        "link": "/account/company-profile",
+        "iconStyle": "text-gray-darkest"
+      },
+      {
+        "label": "Billing & Subscription",
+        "icon": "receipt",
+        "link": "/account/billing-and-subscription",
+        "iconStyle": "text-gray-darkest"
+      },
+      {
+        "label": "Logout",
+        "icon": "logout",
+        "link": "/logout",
+        "labelStyle": "text-red",
+        "iconStyle": "text-red",
+        "isSeparated": true
+      }
+    ],
+    "userPopUp": [
+      {
+        "label": "My Profile",
+        "icon": "user",
+        "link": "/account/company-profile",
+        "iconStyle": "text-gray-darkest"
+      },
+      {
+        "label": "People",
+        "icon": "user-multiple",
+        "link": "/people",
+        "iconStyle": "text-gray-darkest"
+      },
+      {
+        "label": "Admin",
+        "icon": "no-icon",
+        "link": "/#"
+      },
+      {
+        "label": "Billing & Subscription",
+        "icon": "receipt",
+        "link": "/account/billing-and-subscription",
+        "iconStyle": "text-gray-darkest"
+      },
+      {
+        "label": "Expand Menu",
+        "action": "toggleSideNav",
+        "icon": "panel-left",
+        "linkDisabled": true,
+        "isSeparated": true
+      },
+      {
+        "label": "Logout",
+        "link": "/logout",
+        "icon": "logout",
+        "labelStyle": "text-red",
+        "iconStyle": "text-red"
+      }
+    ]
+  }
+}

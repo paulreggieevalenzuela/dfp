@@ -1,0 +1,9 @@
+.Page :global {
+  section {
+    @apply mb-8 grid w-[850px] grid-cols-3 gap-6 p-6 outline-dotted outline-2 outline-gray-300;
+  }
+
+  h4 {
+    @apply mb-4 text-xl font-normal text-neutral-400;
+  }
+}

@@ -1,0 +1,80 @@
+@mixin outline-button-hover($kind: primary) {
+  @if $kind == primary {
+    @apply border-blue-700 bg-blue-700 text-white;
+
+    &.dark {
+      @apply border-white bg-white text-blue-600;
+    }
+
+    &.icon-button,
+    & > .icon-button {
+      @apply border-l-white;
+
+      &.dark {
+        @apply border-l-blue-600;
+      }
+    }
+  }
+
+  @if $kind == danger {
+    @apply border-red-800 bg-red-50 text-red-800;
+  }
+}
+
+@mixin outline-button-active($kind: primary) {
+  @if $kind == primary {
+    @apply border-blue-darkest bg-blue-100 text-blue-darkest;
+
+    &.dark {
+      @apply border-white bg-white/[.16] text-white;
+    }
+  }
+
+  @if $kind == danger {
+    @apply border-red-darkest bg-red-100 text-red-darkest;
+  }
+}
+
+@mixin outline-button($kind: primary) {
+  @apply border-[1px] border-solid;
+
+  &.main-button {
+    @apply border-[1px] border-r-0;
+  }
+
+  &.icon-button,
+  & > .icon-button {
+    @apply border-[1px];
+  }
+
+  @if $kind == primary {
+    &,
+    &:focus {
+      @apply border-gray-darkest bg-white text-gray-darkest;
+
+      &.dark {
+        @apply border-white bg-transparent text-white;
+      }
+    }
+  }
+
+  @if $kind == danger {
+    &,
+    &:focus {
+      @apply border-red-700 bg-white text-red-700;
+    }
+  }
+
+  &:disabled {
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+      @apply border-[#000000]/[.12] bg-white text-gray-darkest/[.38];
+
+      &.dark {
+        @apply border-white/[.38] bg-transparent text-white/[.38];
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.BillingDetailsContainer {
+  @apply mb-8 w-[1000px];
+
+  .billingHeader {
+
+    p {
+      @apply text-[22px] mb-[30px];
+    }
+  }
+
+  .displayDetails {
+    @apply text-base;
+
+    .header {
+      @apply mb-3 block text-sm text-gray-400;
+    }
+
+    .contactContainer {
+      @apply grid w-[60px] grid-cols-2;
+    }
+  }
+}
+
+.SubscriptionPlan {
+  @apply p-[24px] w-[400px] z-10;
+
+  .subscriptionType {
+    @apply mb-[30px] flex justify-between;
+  }
+
+  .subscriptionPlanBadge {
+    @apply w-[60px] justify-center bg-green-100 text-green font-bold;
+  }
+
+  .hoursTitle {
+    @apply mb-[16px] text-sm text-gray-400;
+  }
+
+  .subscritionHours {
+    @apply mb-[20px] flex;
+
+    span {
+      @apply text-sm text-gray-400;
+    }
+  }
+
+  .subscriptionPaymentDetails {
+    @apply mt-[25px] flex justify-between;
+
+    & > div {
+      flex: 1;
+    }
+
+    label {
+      @apply text-sm text-gray-400;
+    }
+
+    p {
+      @apply mt-[10px] text-base font-medium text-black;
+    }
+
+    span {
+      @apply text-sm text-gray-400;
+    }
+  }
+
+  .manageSubscription {
+    @apply mt-[30px];
+
+    a {
+      cursor: pointer;
+      &:hover,
+      &:focus {
+        @apply text-black;
+      }
+    }
+  }
+}
